@@ -1,0 +1,9 @@
+.container {
+    display: flexbox;
+}
+
+.MovieContainer {
+    border-radius: 5px;
+    border-color: aqua;
+
+}   
