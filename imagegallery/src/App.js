@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import axios from 'axios';
-import Gallery from './imageComponent'
+import Gallery from './galleryComponent'
 
 function App() {
   const [search, setSearch] = useState("");
@@ -27,11 +27,11 @@ function App() {
           <input  type="text" value={search} onChange={changeHandler} name='inputBox'/>
           <br /><br></br>
           <input type="submit" name="submit" />
-          <br/>
+          <br/> <br/>
         </form>
         {
           search === "" ? <h1>please enter some text</h1>:
-          data.length>0 ? <Gallery data={data}/> : <h2>No data loaded</h2>
+          (data.length>0 ? <Gallery data={data}/> : <h2>No data loaded</h2>)
         }
         
       </center>
