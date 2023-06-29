@@ -30,7 +30,7 @@ function App() {
           <br/> <br/>
         </form>
         {
-          search === "" ? <h1>please enter some text</h1>:
+          search == "" || null ? <h1>please enter some text</h1>:
           (data.length>0 ? <Gallery data={data}/> : <h2>No data loaded</h2>)
         }
         

@@ -5,6 +5,6 @@
 }
 
 .images-container {
-    display:flex;
+    display:grid;
     flex-direction: row;
 }
