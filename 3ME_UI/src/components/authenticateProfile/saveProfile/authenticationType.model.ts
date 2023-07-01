@@ -1,7 +1,0 @@
-export enum AuthenticationType {
-  REGISTERATION = 0,
-  FORGOTPASSWORD = 1,
-  UPDATE_PROFILE = 2,
-  UPDATE_USERNAME = 3,
-  UPDATE_MOBILE_PHONE_NUMBER = 4,
-}
