@@ -1,0 +1,58 @@
+.selectFacility-search-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.selectFacility-or-div {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 16px;
+  margin-top: 40px;
+}
+.searchFacilityMain {
+  background: #f8f8fa;
+  /* MSD DS/Gray/10 */
+
+  border: 1px solid #e4e4e8;
+  min-height: 120px;
+}
+
+.searcFacilitySub {
+  margin: 16px;
+}
+.selectFacility-searchByName {
+  width: 545px;
+}
+
+.selectFacility-Or {
+  width: 60px;
+}
+.selectFacility-serachById {
+  width: 254px;
+}
+
+.search-facility-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.facilityResult-subMain .returnToFavourite {
+  text-decoration-color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0049bd;
+  text-decoration: underline;
+  text-decoration-color: #0049bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  margin-bottom: 35px;
+}
+
+.facilityResult-subMain {
+  margin-top: 35px;
+}

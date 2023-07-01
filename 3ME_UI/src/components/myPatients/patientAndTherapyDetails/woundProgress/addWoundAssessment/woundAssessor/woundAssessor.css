@@ -1,0 +1,83 @@
+.woundAssessor {
+  margin-top: 32px;
+  width: 560px;
+}
+.woundAssessor-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+.woundAssessor .woundAsseor-box-container {
+  margin-top: 8px;
+  width: 97%;
+}
+.woundAssessor .woundAssessor-grid-container {
+  width: 106%;
+}
+
+.woundAssessor-grid-container .woundAssessor-grid-item {
+  width: 100%;
+}
+.woundAssessor .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.woundAssessor .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+.woundAssessor .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+.woundAssessor .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.woundAssessor .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.woundAssessor .woundAssessor-name-input {
+  width: 100%;
+  height: 40px;
+}
+.phone {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #94949a;
+  font-size: 14px;
+  padding: 11.15px 12px;
+}
+.phone :focus {
+  outline: none;
+}
+.Mui-error + div .phone {
+  border-color: #d32f2f;
+}
+.woundAssessor .licenseType-info-input {
+  width: 100%;
+}
+.woundAssessor .licenseType-info-input .licenseType-info-select {
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  height: 12px;
+}

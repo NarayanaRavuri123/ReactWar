@@ -1,0 +1,104 @@
+.submitted-documents-grid-container {
+  padding: 0;
+  height: 100%;
+  border: 1px solid #e4e4e8;
+}
+.submitted-documents-grid-container .submitted-documents-grid-item {
+  margin: 0;
+}
+.submitted-documents-grid-item .file-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  pointer-events: none;
+}
+.file-icon-div .file-icon {
+  display: flex;
+  height: 38px;
+  width: 38px;
+}
+
+.file-icon-div .file-icon-text-listView {
+  color: #76767a;
+  font-size: 11px;
+  margin-top: 32px;
+  margin-left: -31px;
+}
+.file-icon-div .file-icon-text-for-three-listView {
+  font-size: 11px;
+  color: #76767a;
+  margin-top: 33px;
+  margin-left: -25px;
+}
+.file-icon-div .file-icon-text-tiff-list-view {
+  font-size: 11px;
+  color: #76767a;
+  margin-left: -25px;
+  margin-top: 32px;
+}
+
+.submitted-documents-grid-item .submitted-documents-heading-div {
+  margin-top: 19px;
+  margin-left: 6px;
+}
+.submitted-documents-heading-div .submitted-document-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #76767a;
+  margin: auto;
+}
+.submitted-documents-heading-div .submitted-document-link {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #0049bd;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+.submitted-documents-heading-div .submitted-document-doc-type-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 4px 0 0 0;
+}
+.submitted-documents-heading-div .submitted-document-submit-date-valule {
+  margin: 4px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}
+.submitted-documents-heading-div .fileStatus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-right: 20px;
+  color: #007713;
+  align-self: center;
+  text-align-last: right;
+  text-align: center;
+}
+.submitted-documents-heading-div .fileStatuserror {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-right: 20px;
+  color: #cb0000;
+  align-self: center;
+  text-align-last: right;
+  text-align: center;
+}

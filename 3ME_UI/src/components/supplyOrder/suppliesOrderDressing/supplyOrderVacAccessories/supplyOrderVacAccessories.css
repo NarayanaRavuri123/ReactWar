@@ -1,0 +1,45 @@
+.supply-add-accessories {
+  border: 1px solid #e4e4e8;
+  margin-top: 8px;
+  padding: 16px;
+  border-radius: 4px;
+}
+.supply-add-accessoriesError {
+  border: 1px solid #d32f2f;
+}
+.supply-add-accessories .supply-add-accessories-grid-container {
+  width: 100%;
+}
+
+.supply-add-accessories .supply-add-accessories-grid-item {
+  margin-top: -12px;
+  width: 100%;
+}
+
+.supply-add-accessories .supply-add-accessories-header-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.supply-add-accessories-header-div .supply-add-accessories-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.supply-add-accessories .supply-add-accessory-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 16px 16px 0px 0px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.supply-add-accessories .supply-add-accessory-icon {
+  transform: scale(1.5) !important;
+}

@@ -1,0 +1,54 @@
+.reason-for-discahrge {
+  margin: 24px 0;
+  width: 100%;
+}
+
+.reason-for-discahrge .pickup-request-reason-for-discharge {
+  width: 100%;
+}
+
+.reason-for-discahrge .pickup-request-grid-container {
+  width: 100%;
+}
+
+.reason-for-discahrge .pickup-request-grid-item {
+  width: 100%;
+}
+
+.reason-for-discahrge .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reason-for-discahrge .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  margin: 8px 0;
+  min-height: 48px;
+  width: calc(100% - 4px);
+}
+
+.reason-for-discahrge .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  margin: 8px 0;
+  min-height: 48px;
+  width: calc(100% - 4px);
+}
+
+.reason-for-discahrge .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding-right: 8px;
+}
+
+.reason-for-discahrge .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}

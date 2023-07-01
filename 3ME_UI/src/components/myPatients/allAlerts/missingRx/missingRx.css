@@ -1,0 +1,64 @@
+.missing-rx-header-title {
+  background-color: #fff0f0;
+  color: #cb0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 0;
+  margin-right: 56px;
+  padding: 8px 16px;
+  width: max-content;
+}
+.eprescriber {
+  width: 574px;
+  min-height: 306px;
+}
+.eprescribersent {
+  width: 574px;
+  height: 280px;
+}
+.missingrxloading {
+  width: 574px;
+  height: 306px;
+}
+
+.rxuploadprescriber {
+  width: 574px;
+  min-height: 394px;
+}
+
+.rxuploadprescribersent {
+  width: 574px;
+  height: 178px;
+}
+
+.rxuploadprescriberfailed {
+  width: 574px;
+  height: 210px;
+}
+
+.fax-in-later {
+  width: 574px;
+  min-height: 322px;
+}
+
+.fax-in-later-sent {
+  width: 574px;
+  height: 326px;
+}
+
+.missing-rx-spinner {
+  min-width: 574px;
+  min-height: 188px;
+}
+
+.change-prescriber {
+  width: 574px;
+  min-height: 436px;
+}
+
+.spinner-missing-rx-space {
+  margin-top: 25px;
+}

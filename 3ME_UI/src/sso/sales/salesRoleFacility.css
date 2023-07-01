@@ -1,0 +1,95 @@
+.searchFacilityTable {
+  margin-bottom: 16px;
+}
+.territoryView {
+  min-height: 0px;
+}
+.territoryView .territoryView-select.MuiInputBase-input {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  border-radius: 0px;
+  border: 0px solid #94949a;
+}
+.territoryView .territoryView-input {
+  width: 240px;
+  border-radius: 0px;
+  height: 42px;
+}
+.searchFacilityTable .searchContainer {
+  width: 100%;
+}
+.searchFacilityTable .classification-dropdown .classification-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  border-radius: 0px;
+}
+.searchFacilityTable div.placeHolder {
+  border-radius: 2px;
+  width: 100%;
+}
+.searchFacilityTable .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+.searchFacilityTable.classification {
+  width: 100%;
+  border: 1px solid #94949a;
+}
+.searchFacilityTable .classification-dropdown {
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 24px;
+  height: 42px;
+  margin-left: 6px;
+}
+.searchFacilityTable .careSetting .careSetting-select {
+  height: 15px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  border-radius: 0px;
+}
+.searchFacilityTable .careSetting {
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 24px;
+  height: 42px;
+  margin-left: 10px;
+}
+.searchIcon {
+  margin-left: -7px;
+  color: darkgray;
+  margin-top: -14px;
+}
+.searchHolder.MuiInputBase-root {
+  margin-left: -36px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: -12px;
+  color: #323234;
+}
+.searchContainer .searchBox {
+  height: 42px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  font-size: 14px;
+  border: 1px solid #d0d0d3;
+  margin-top: 40px;
+  margin-left: 16px;
+}

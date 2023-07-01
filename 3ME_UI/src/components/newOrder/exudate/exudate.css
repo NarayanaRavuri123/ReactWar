@@ -1,0 +1,40 @@
+.exudate-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+}
+
+.exudate-container .exudate-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+
+.exudate-container .exudate-select-input {
+  max-width: 272px;
+  width: 100%;
+}
+
+.exudate-container .exudate-dd-container {
+  width: 100%;
+}
+
+.exudate-container div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  max-width: 272px;
+  width: 100%;
+}
+
+.exudate-container .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  max-width: 272px;
+  width: 100%;
+}
+
+.exudate-container .placeHolder .selectIcon {
+  top: 10px;
+}

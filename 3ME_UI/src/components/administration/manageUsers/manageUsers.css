@@ -1,0 +1,212 @@
+.manage-users-component-container {
+  width: 100%;
+}
+
+.manage-users-component-container .manage-users-component {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 56px 101px 16px;
+  min-height: calc(100vh - 244px);
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.manage-users-component .manage-users-main-section {
+  margin: 0 0 40px 0;
+  width: 100%;
+}
+
+.manage-users-component .manage-users-main-section-header {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 12px 40px 0px;
+}
+
+.manage-users-component .manage-users-component-route-section {
+  margin: 26px 40px;
+}
+
+.manage-users-component-container .fetch-users-loader-pop-up {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.fetch-users-loader-pop-up .fetch-users-loader {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 400px;
+}
+
+.fetch-users-loader-pop-up .fetch-users-failure-pop-up {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.fetch-users-failure-pop-up .fetch-users-failure-pop-up-div {
+  height: 165px;
+  width: 432px;
+}
+
+.manage-users-component .filter-mng-usr {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  margin: 0 0 0 40px;
+  width: calc(100% - 72px);
+}
+
+.filter-mng-usr .user-searchbar {
+  border: 1px groove #b4b4b8;
+  border-radius: 2px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  width: calc(100% - 304px);
+}
+
+.user-searchbar .search-icon-div {
+  height: 100%;
+  margin: 0;
+}
+
+.user-searchbar .search-icon-div .search-icon {
+  color: #76767a;
+  height: 100%;
+  margin: auto 13px;
+}
+
+.user-searchbar .user-search-input {
+  color: #76767a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+}
+
+.filter-mng-usr .user-status-input {
+  height: 40px;
+  width: 140px;
+}
+
+.filter-mng-usr .user-status-input .user-status-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  width: 140px;
+}
+
+.filter-mng-usr div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  height: 42px;
+  width: 140px;
+}
+
+.filter-mng-usr .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 140px;
+}
+
+.filter-mng-usr .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.filter-mng-usr .add-new-user-btn {
+  align-items: center;
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  min-width: 132px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+.manage-users-component .users-table {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 16px 16px;
+  width: calc(100% - 32px);
+}
+
+@media screen and (max-width: 600px) {
+  .manage-users-component-container .manage-users-component {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  .manage-users-component .users-table {
+    margin: 16px;
+    width: calc(100% - 32px);
+  }
+  .manage-users-component .filter-mng-usr {
+    flex-direction: column;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  .filter-mng-usr div.placeHolder {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+  .manage-users-component .user-searchbar {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  .manage-users-component .search-icon-div {
+    height: 100%;
+    margin: 0;
+  }
+  .manage-users-component .search-icon {
+    color: #76767a;
+    height: 100%;
+    margin: auto 13px;
+  }
+
+  .manage-users-component .user-search-input {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  .manage-users-component .user-status-input {
+    height: 40px;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+  .manage-users-component .add-new-user-btn {
+    justify-content: flex-start;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+}
+@media screen and (max-width: 912px) {
+  .manage-users-component-container .manage-users-component {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .manage-users-component .users-table {
+    margin: 16px;
+    width: calc(100% - 32px);
+  }
+}

@@ -1,0 +1,66 @@
+.review-woundBed .review-woundBed-title {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+}
+.review-woundBed .review-woundBed-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.review-woundBed-row {
+  display: flex;
+  flex-direction: column;
+}
+.review-woundBed-row .review-WoundBed-val {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  width: 403px;
+  height: 34px;
+}
+.review-woundBed-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.review-WoundBedval {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 100px;
+}
+.review-woundBed
+  .review-woundAssessmentBed-edit
+  .review-woundAssessmentBed-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 20px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+.review-Wounbed-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-bottom: 14px;
+  text-align: right;
+}
+.review-WoundBedtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}

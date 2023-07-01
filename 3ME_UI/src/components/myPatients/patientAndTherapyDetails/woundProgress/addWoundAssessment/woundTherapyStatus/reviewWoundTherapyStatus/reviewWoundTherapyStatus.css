@@ -1,0 +1,32 @@
+.review-therapyStatus .review-therapyStatus-title {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+}
+.review-therapyStatus .review-therapyStatus-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.review-therapyStatus
+  .review-therapyStatus-edit
+  .review-therapyStatus-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  top: 20px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+.review-therapyStatus-row {
+  display: flex;
+  flex-direction: row;
+}

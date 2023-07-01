@@ -1,0 +1,39 @@
+.holdDate input.input {
+  border-right: 0;
+}
+
+div.holdDate {
+  padding-right: 0;
+}
+
+.holdDate .outline {
+  border-radius: 2px;
+}
+
+.holdDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.holdDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}
+
+.resumeDate input.input {
+  border-right: 0;
+}
+
+div.resumeDate {
+  padding-right: 0;
+}
+
+.resumeDate .outline {
+  border-radius: 2px;
+}
+
+.resumeDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.resumeDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}

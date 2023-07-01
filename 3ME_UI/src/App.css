@@ -1,0 +1,213 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  height: auto;
+}
+
+.appWithRouter {
+  min-height: calc(100vh - 144px);
+}
+
+.appWithRouter .helpComponent {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+.appWithRouter .help-container {
+  margin: 0;
+}
+
+.appWithRouter .helpSectionAtSignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.appWithRouter .educationAtSignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  min-height: calc(100vh - 144px);
+}
+
+.educationAtSignup .educationComponent {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+@media only screen and (max-width: 920px) {
+  .educationAtSignup .educationComponent {
+    width: 100%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .educationAtSignup .educationComponent {
+    width: 100%;
+  }
+}
+.appWithRouter .productAndSolutionAtSignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  min-height: calc(100vh - 144px);
+}
+
+.productAndSolutionAtSignup .productAndSolutionComponent {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+.internalappWithRouter {
+  min-height: calc(100vh - 144px);
+  width: 100%;
+}
+
+.internalappWithRouter .helpComponent {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+.internalappWithRouter .help-container {
+  margin: 0;
+}
+
+.internalappWithRouter .helpSectionAtSignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nameColumn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.appWithRouter .contact-us-section {
+  margin-right: 0px;
+  flex: 1;
+}
+
+.appWithRouter .contact-us-section {
+  padding: 35px 24px 40px 24px;
+}
+
+.managedProfileappRouter {
+  background-color: #f8f8fa;
+}
+
+.managedProfileappRouter .manageProfileAtfterLogin {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.managedProfileappRouter .profileComponent {
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px 104px;
+  padding: 40px;
+  width: 100%;
+}
+.internal-managedProfileappRouter {
+  background-color: #f8f8fa;
+}
+
+.internal-managedProfileappRouter .internal-manageProfileAtfterLogin {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.internal-managedProfileappRouter .internal-profileComponent {
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px 128px;
+  padding: 40px;
+  width: 100%;
+}
+
+.managedProfileappRouter .manage-profile-route-section {
+  margin-bottom: 30px;
+}
+
+.sideNavmadminBtnStyle {
+  display: block;
+  width: 20px;
+  height: 16px;
+  background: #e8f4ff;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0049bd;
+  margin-top: 2px;
+}
+
+.sideNavmadminBtnMain {
+  display: flex;
+  gap: 10px;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .managedProfileappRouter .profileComponent {
+    margin: 0;
+    padding: 40px 15px 40px 7px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .appWithRouter .helpComponent {
+    width: 100%;
+  }
+  .productAndSolutionAtSignup .productAndSolutionComponent {
+    width: 100%;
+  }
+}

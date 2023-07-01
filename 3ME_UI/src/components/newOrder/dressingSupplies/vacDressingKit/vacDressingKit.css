@@ -1,0 +1,114 @@
+.dressingKitInfo .dressingKitBtnGrid {
+  height: 48px;
+  margin-top: -8px;
+}
+
+.mainGridDressing {
+  margin-bottom: 8px;
+}
+
+.dressingKitInfo .dressingKit-add-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 16px;
+  min-height: 16px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.dressingKitInfo .dressingadd-icon {
+  transform: scale(1.5) !important;
+}
+
+.dressingKitInfo {
+  border: 1px solid #e4e4e8;
+  border-radius: 4px;
+  min-height: 114px;
+  padding: 16px;
+}
+
+.dressing-kitdropdown-input {
+  width: 100%;
+  height: 40px;
+}
+
+.dressing-kitdropdown-input .dressingKit-type-select {
+  height: 20px !important;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  color: black;
+}
+
+.dressingKitCloseBtn {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 27px;
+}
+.dressingSizeKit {
+  margin-top: 8px;
+}
+
+.dressingKitLabel {
+  position: relative;
+  top: 20px;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.dressKitSubLabel {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-top: 18px;
+}
+
+.currentMainGrid .dressingLabel {
+  margin-left: 12px;
+}
+
+.dressingKitHeader {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.dressingKitBody {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+div.dressingplaceHolder {
+  width: 100%;
+  border-radius: 2px;
+  color: #76767a;
+}
+
+.dressingplaceHolder div.dressingplaceHolder {
+  width: 100%;
+  border: none;
+}
+
+.dressingplaceHolder .selectIcon {
+  top: 10px;
+}

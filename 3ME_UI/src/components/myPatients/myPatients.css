@@ -1,0 +1,157 @@
+.alert-container.alert-container-root {
+  margin-left: 16px;
+  width: 65%;
+}
+
+.alert-box-container.alert-box-container-root {
+  display: flex;
+  flex-direction: row;
+}
+
+.patient-data-box {
+  width: 35%;
+}
+
+.dailogClassPatient .dailogPaperPatient {
+  max-width: 662px;
+  min-width: 662px;
+  min-height: 378px;
+  background-color: white;
+}
+
+.comfirmationTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+  flex: 100%;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+
+.add-patient-popup .paperRoot {
+  width: 662px;
+}
+
+.emptyPopup {
+  width: 200px;
+  height: 56px;
+}
+
+.removePatientToast {
+  position: fixed;
+  z-index: 1;
+  left: 520px;
+  top: 0;
+  margin-top: 6px;
+}
+.removePatientToast .modal-content {
+  width: 349px;
+}
+.removePatientToast .codeSentText {
+  max-width: 269px;
+}
+.removePatientToast .codeSentAlertClose {
+  left: 89%;
+}
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .alert-container-root {
+    width: 100%;
+  }
+
+  .alert-container.alert-container-root {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .alert-box-container.alert-box-container-root {
+    display: block;
+  }
+}
+
+.myPatientListSpinner {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+svg.statusIconMain {
+  width: 10px;
+  height: 10px;
+  display: inline;
+  margin-right: 4px;
+}
+
+.yellowCircle {
+  color: #eaca00;
+}
+
+.orangeCircle {
+  color: #ff9649;
+}
+.redCircle {
+  color: #cb0000;
+}
+.greenCircle {
+  color: #00ac31;
+}
+.greyCircle {
+  color: #94949a;
+}
+.blueCircle {
+  color: #1e64d0;
+}
+.purpleCircle {
+  color: purple;
+}
+.cancelShare-spinner {
+  width: 400px;
+  height: 190px;
+  margin-top: 31px;
+}
+.cancelShare-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+  padding: 16px;
+}
+.addpatientBox {
+  margin-top: 2%;
+}
+.deleteorder-spinner {
+  width: 375px;
+  min-height: 202px;
+  margin-top: 31px;
+}
+
+.myPatientbuttonDiv {
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.myPatientbuttonDivEmpty {
+  display: none;
+}
+
+.warning-pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 165px;
+  margin: 0px 16px;
+  width: 448px;
+}

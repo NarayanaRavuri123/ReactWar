@@ -1,0 +1,108 @@
+.wound-overview-info-info {
+  margin: 0;
+  width: calc(100% - 4px);
+  margin-top: 0px;
+}
+
+.wound-overview-info-info .wound-overview-info-component-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.wound-overview-info-component-title .wound-overview-info-info-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 16px;
+  margin-top: 25px;
+}
+
+.wound-overview-info-info .all-content-div-wound-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16px;
+  width: calc(100% - 31px);
+  margin-top: 0px;
+}
+
+.all-content-div-wound-info .content-div-wound-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.all-content-div-wound-info .wound-overview-info-info-content-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.wound-overview-info-info-content-title .class-bold {
+  color: #323234;
+  font-weight: 700;
+  font-size: 14px;
+}
+.all-content-div-wound-info .wound-overview-info-info-content-title-last {
+  color: #323234;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+.wound-overview-info-info .content-column-style {
+  display: flex;
+  flex-direction: row;
+}
+.content-column-style .div-wound-assesment-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.div-wound-assesment-details .sub-content-vol-div-header {
+  display: flex;
+  flex-direction: row;
+}
+.div-wound-assesment-details .wound-volume-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  min-height: 16px;
+  margin-bottom: 8px;
+}
+.div-wound-assesment-details .sub-content-vol-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.sub-content-vol-div .wound-volume-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  width: 136px;
+}
+.sub-content-vol-div .wound-volume-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}

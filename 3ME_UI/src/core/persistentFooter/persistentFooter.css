@@ -1,0 +1,13 @@
+.footer-btn-group {
+  background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.14),
+    0px 3px 3px rgba(0, 0, 0, 0.12);
+  height: 72px;
+  left: 0;
+  position: fixed;
+  text-align: right;
+  top: auto;
+  width: 100%;
+  z-index: 1;
+}

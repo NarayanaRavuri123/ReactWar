@@ -1,0 +1,50 @@
+.therapy-information {
+  margin-top: 40px;
+}
+
+.therapy-information .therapy-information-header {
+  width: 100%;
+}
+
+.therapy-information-header .therapy-information-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.therapy-information .therapy-information-grid-container {
+  width: 100%;
+}
+
+.therapy-information .therapy-information-input .therapy-information-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.therapy-information div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.therapy-information .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.therapy-information .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.therapy-information .therapy-information-input {
+  width: 100%;
+}

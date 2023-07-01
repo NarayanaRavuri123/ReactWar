@@ -1,0 +1,68 @@
+.wound-tunneling-review-order {
+  margin: 0;
+  width: calc(100% - 8px);
+}
+
+.wound-tunneling-review-order .wound-tunneling-review-order-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+.wound-tunneling-review-order
+  .wound-tunneling-review-order-header
+  .wound-tunneling-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.wound-tunneling-review-order
+  .wound-tunneling-review-order-header
+  .wound-tunneling-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.wound-tunneling-review-order .wound-tunneling-review-order-grid-container {
+  width: 100%;
+}
+
+.wound-tunneling-review-order .wound-tunneling-review-order-grid-item {
+  width: 100%;
+}
+
+.wound-tunneling-review-order-grid-item
+  .wound-tunneling-review-order-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.wound-tunneling-review-order-grid-item
+  .wound-tunneling-review-order-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}

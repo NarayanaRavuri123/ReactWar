@@ -1,0 +1,89 @@
+.addWound-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 500px;
+  max-height: auto;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 16px 104px 120px 16px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.addWound-Details {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 16px;
+  width: 560px;
+  height: 152px;
+  background: #f8f8fa;
+  border: 1px solid #e4e4e8;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 16px;
+}
+.addWound-PatientName {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.addWound-WoundDetail {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  margin-bottom: 4px;
+}
+.addWound-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
+.addWound-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+.addWound-value {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}
+.addWound-roValue {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #0049bd;
+  cursor: pointer;
+}
+.addWound-col {
+  width: 50%;
+}
+.addWound-ErrorText {
+  display: flex;
+  justify-content: center;
+  margin: 200px 16px;
+  width: 100%;
+  place-self: center;
+}
+/* Remove this empty popup after RON click implementation */
+.emptyPopup {
+  width: 180px;
+  height: 70px;
+}
+
+.woundAssessmentTunneling {
+  width: 560px;
+}

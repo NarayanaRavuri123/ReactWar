@@ -1,0 +1,131 @@
+.newWoundImg {
+  width: 100%;
+}
+
+.newWoundImg .uploadImgTxt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: 40px;
+  width: 389px;
+}
+.newWoundImg .uploadImgtxt {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #323234;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.newWoundImg .uploadImg {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-top: 9px;
+  width: 560px;
+}
+.newWoundImg .uploadImgDesp {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.newWoundImg .dropZoneStyles {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: 56px;
+  background: #f8f8fa;
+  cursor: pointer;
+  border: 1px dashed #1e64d0;
+}
+
+.newWoundImg .dragAndDrop {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #76767a;
+}
+
+.newWoundImg .uploadWidgetCard {
+  margin-top: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  border: 1px solid #e4e4e8;
+  margin-bottom: 15px;
+}
+
+.newWoundImg .uploadIconStyle {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.newWoundImg .fileDetailCard {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 56px;
+  background: #ffffff;
+  border: 1px solid #e4e4e8;
+  margin-bottom: 10px;
+}
+
+.newWoundImg .fileDetailCard .filename {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  width: 50%;
+  align-self: center;
+  overflow-wrap: break-word;
+  margin-left: 11px;
+}
+
+.newWoundImg .fileDetailCard .fileStatus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  width: 40%;
+  color: #007713;
+  align-self: center;
+  text-align-last: right;
+}
+
+.newWoundImg .fileDetailCard .fileClose {
+  width: 50px;
+  align-self: center;
+  text-align: right;
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+.newWoundImg .fileDetailCard .fileStatuserror {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  width: 40%;
+  color: #cb0000;
+  align-self: center;
+  text-align-last: right;
+}

@@ -1,0 +1,61 @@
+.mainGridDressing {
+  margin-bottom: 8px;
+}
+
+.supply-cannisterKitInfo {
+  border: 1px solid #e4e4e8;
+  border-radius: 4px;
+  max-height: 144px;
+  padding: 16px;
+  margin-top: 8px;
+}
+.supply-cannisterKitInfoError {
+  border: 1px solid #d32f2f;
+}
+
+.supply-cannisterKitHeader {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: 0px;
+}
+
+.currentCannisterMainGrid {
+  display: flex;
+  flex-direction: row;
+  margin-top: -14px;
+}
+
+.currentCannisterMainGrid .cannisterLabel {
+  margin-left: 0px;
+}
+
+.canisterKitCloseBtn {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 27px;
+}
+
+.supply-cannisterKitInfo .supplyOrderCannisterBtnGrid {
+  margin-bottom: 3px;
+  margin-top: 22px;
+}
+
+.supply-cannisterKitInfo .supplyOrder-canister-add-button {
+  color: #0049bd;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.supply-cannisterKitInfo .dressingadd-icon {
+  transform: scale(1.5) !important;
+}

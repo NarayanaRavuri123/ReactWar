@@ -1,0 +1,17 @@
+.change-pres {
+  margin-top: -7px;
+}
+.change-pres-rxupload {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  margin-left: 32px;
+}
+.change-pres-uploaddiv {
+  margin-top: 18px;
+}
+
+.change-pres-uploaddiv .change-pres-button-drop-select {
+  text-transform: none;
+}

@@ -1,0 +1,210 @@
+.pick-up-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.pick-up-details .pick-up-details-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.pick-up-details .pick-up-details-description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: -8px;
+  line-height: 16px;
+}
+
+.pick-up-details-grid-item .placementDate {
+  color: #94949a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pick-up-details-grid-item .placementDate input.input {
+  background: #f2f2f5;
+  border-right: 0;
+}
+
+.pick-up-details-grid-item div.placementDate {
+  padding-right: 0;
+}
+
+.pick-up-details-grid-item .placementDate .outline {
+  border-radius: 2px;
+}
+
+.pick-up-details-grid-item .placementDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.pick-up-details-grid-item .placementDate.noError.Mui-error .outline {
+  border: 1px solid #b4b4b8;
+}
+
+.pick-up-details-grid-item .therapyDischargeDate {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pick-up-details-grid-item .therapyDischargeDate input.input {
+  background: #fff;
+  border-right: 0;
+  color: #323234;
+}
+
+.pick-up-details-grid-item div.therapyDischargeDate {
+  padding-right: 0;
+}
+
+.pick-up-details-grid-item .therapyDischargeDate .outline {
+  border-radius: 2px;
+}
+
+.pick-up-details-grid-item .therapyDischargeDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.pick-up-details-grid-item .therapyDischargeDate.noError.Mui-error .outline {
+  border: 1px solid #b4b4b8;
+}
+
+.pick-up-details-grid-item .stopBillDate {
+  color: #94949a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pick-up-details-grid-item .stopBillDate input.input {
+  background: #f2f2f5;
+  border-right: 0;
+  color: #323234;
+}
+
+.pick-up-details-grid-item div.stopBillDate {
+  padding-right: 0;
+}
+
+.pick-up-details-grid-item .stopBillDate .outline {
+  border-radius: 2px;
+}
+
+.pick-up-details-grid-item .stopBillDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.pick-up-details-grid-item .stopBillDate.noError.Mui-error .outline {
+  border: 1px solid #b4b4b8;
+}
+
+.pick-up-details-grid-item .pick-up-details-input {
+  width: 100%;
+}
+
+.pick-up-details-grid-item .pick-up-details-return-method {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pick-up-details .pick-up-details-input .pick-up-details-select {
+  align-items: center;
+  display: block;
+  min-height: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+.pick-up-details div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.pick-up-details .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.pick-up-details .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.pick-up-details-grid-item .instructions-description-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  min-height: 18px;
+  margin-top: -8px;
+}
+
+.pick-up-details-grid-item .specialInstructions {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.instructions-description-div .instructions-description-text {
+  color: #76767a;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  min-height: 18px;
+  line-height: 16px;
+  margin: 0;
+  width: 100%;
+}
+
+.instructions-description-text .instructions-description-text-click-here {
+  color: #0049bd;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 18px;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.pick-up-details-grid-item input.input {
+  background: #f2f2f5;
+  border-right: 0;
+  color: #323234;
+}
+
+.pick-up-details-grid-item .helperText {
+  margin: 5px 0 0;
+  text-align: right;
+}
+
+.pick-up-details-grid-item .textarea-root {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+}
+
+.emptyPopup {
+  max-width: 100%;
+  min-height: 56px;
+}

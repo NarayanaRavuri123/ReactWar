@@ -1,0 +1,115 @@
+.contact-options-container.contact-options-root {
+  padding-top: 8px;
+}
+.contact-options-container .checkboxRoot {
+  flex-direction: column;
+  display: inline-grid;
+}
+
+.contact-options-container .checkbox-image {
+  color: #94949a;
+}
+
+.contact-options-container .checkbox-option-txt {
+  box-sizing: border-box;
+  cursor: default;
+  color: #18181a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 30px;
+  line-height: 18px;
+  margin: 0;
+  pointer-events: none;
+}
+
+.contact-options-container .checkbox-option-txt input[type="checkbox"] {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.contact-options-container .checkbox-root.checkbox-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-options-container .sms-tnc-div .checkbox-option-txt {
+  color: #76767a;
+  margin-right: 4px;
+}
+
+.contact-options-container .sms-tnc-div .checkbox-option-txt-sms {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.contact-options-container .sms-tnc-div .checkbox-option-txt-sms:active {
+  color: #76767a;
+}
+
+.contact-options-container .sms-tnc-div {
+  margin-left: 25px;
+}
+
+.contact-options-container .sms-tnc-label {
+  width: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+
+.contact-options-container .sms-tnc-link {
+  color: #1e64d0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.contact-options-container .no-left-padding-checkbox {
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+}
+
+.contact-options-container .email-label-root {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #18181a;
+}
+.contact-options-container .contact-options-header-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  max-width: max-content;
+}
+.contact-options-container .contact-options-header-label:focus-visible {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.contact-options-container .req-asterisk {
+  color: red;
+  margin-left: 3px;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .contact-options-container .contact-options-header-label {
+    white-space: pre-wrap;
+    position: static;
+  }
+  .contact-options-container.contact-options-root {
+    padding-left: 8px;
+  }
+}

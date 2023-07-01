@@ -1,0 +1,26 @@
+.deliveryInstructions-input {
+  width: 100%;
+}
+.delivery-contact-component {
+  width: 100%;
+}
+.delivery-information-input {
+  width: 100%;
+}
+.deliveryContactMain {
+  margin-top: 40px;
+}
+.deliveryContactHeader {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.deliveryInstructions-input .showDeliveryInstructionError {
+  border: 1px solid #d32f2f !important;
+}
+.noDeliveryInstructionError {
+  border: none;
+}
+.deliveryInstructionLabel {
+  margin-top: 4px;
+}

@@ -1,0 +1,81 @@
+.review-wound-title {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-left: 16px;
+}
+.wound-request-title {
+  color: #76767a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-left: 26px;
+}
+.review-wound-title-one {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+  margin-left: 16px;
+}
+.review-wound-title-two {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+  margin-left: 21px;
+}
+.review-wound-title .wound-button-edit {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 1px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+.wound-info-div {
+  width: 100%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin-left: 16px;
+}
+.woundsecond-info-div {
+  width: 100%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin-left: 16px;
+}
+.wound-therapy-info-div {
+  width: 100%;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  margin-left: 16px;
+}
+@media only screen and (max-width: 920px) {
+  .wound-info-div {
+    column-count: 1;
+    /* padding-left: 16px; */
+  }
+  .woundsecond-info-div {
+    column-count: 1;
+    /* padding-left: 16px; */
+  }
+  .wound-therapy-info-div {
+    /* padding-left: 16px; */
+  }
+}

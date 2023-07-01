@@ -1,0 +1,10 @@
+.alert-detail {
+  display: flex;
+  flex-direction: column;
+  width: 574px;
+}
+
+.alert-header {
+  margin: 12px 0px;
+  height: 32px;
+}

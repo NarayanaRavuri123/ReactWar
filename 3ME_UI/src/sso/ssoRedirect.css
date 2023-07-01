@@ -1,0 +1,31 @@
+.SSobuttonCss {
+  width: 200px;
+  margin-left: 600px !important;
+}
+
+.ssoNew-spinner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.selectfacility-main {
+  background-color: #fff;
+  margin: 16px 112px 16px 112px;
+  min-height: calc(100vh - 144px);
+}
+
+.selectfacility-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+
+.selectFacility-subMain {
+  align-items: flex-start;
+  padding: 40px 40px 64px;
+}

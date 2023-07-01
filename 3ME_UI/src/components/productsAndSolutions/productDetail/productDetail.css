@@ -1,0 +1,69 @@
+.product-detail-main-component {
+  background-color: #fff;
+  display: flex;
+  margin: 16px;
+  width: 100%;
+}
+
+.product-detail-main-component .product-detail-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-detail-main-component .product-detail-component {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.product-detail-component .product-detail-route-section {
+  margin: 26px 24px;
+}
+
+.product-detail-component .no-data {
+  color: #323234;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.product-detail-failure-pop-up {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-detail-failure-pop-up-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail-failure-pop-up-div .product-detail-failure-pop-up-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 165px;
+  margin: 0px 16px;
+  width: 430px;
+}
+@media only screen and (max-width: 900px) {
+  .product-detail-main-component {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-detail-failure-pop-up-div .product-detail-failure-pop-up-component {
+    width: unset;
+  }
+}

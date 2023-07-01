@@ -1,0 +1,103 @@
+.woundAssessmentReview-container {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: 16px 104px 121px 16px;
+}
+.woundAssessmentReview-container .wound-assessment-page-review {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: auto;
+  width: 50%;
+  padding-bottom: 40px;
+}
+.wound-assessment-page-review .reviewpage-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+.wound-assessment-page-review .reviewpage-desp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: 8px;
+}
+.wound-assessment-page-review .reviewpage-patient-info {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-top: 34px;
+  margin-bottom: 5px;
+}
+.wound-assessment-page-review .reviewpage-patient-info-div {
+  width: 100%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+.wound-assessment-page-review .reviewpage-ro-no {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0049bd;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.wound-assessment-page-review .listDocs {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 4.1px 0 0 0px;
+  width: 544px;
+}
+.wound-assessment-page-review .additional-info {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-top: 25px;
+}
+.wound-assessment-page-review .additional-doc-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-top: 8px;
+}
+.wound-assessment-page-review .additional-notes {
+  margin-top: 18px;
+}
+.wound-assessment-page-review .additional-doc-title2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-top: 18px;
+}
+.wound-assessment-page-review .review-additional-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.wound-assessment-page-review
+  .review-additional-edit
+  .review-additional-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 20px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}

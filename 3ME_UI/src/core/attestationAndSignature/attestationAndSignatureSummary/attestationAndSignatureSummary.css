@@ -1,0 +1,42 @@
+.attest-summary-container {
+  margin-top: 17px;
+}
+
+.attest-summary-container .attest-summary-container-component {
+  width: 100%;
+}
+
+.attest-summary-container .attest-summary-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323234;
+}
+.attest-summary-container .attest-summary-container-component {
+  width: 100%;
+}
+.attest-summary-container .e-signature {
+  color: #76767a;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.attest-summary-container .electronic-date-stamp {
+  color: #808084;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.confirmation-summary-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+.confirmation-summary-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}

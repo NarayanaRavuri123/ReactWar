@@ -1,0 +1,89 @@
+.device-information {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.device-information .device-information-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px;
+}
+
+.device-information .device-information-part-one {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.device-information .device-information-part-two {
+  margin-top: 16px;
+}
+
+.device-information .device-information-grid-container {
+  width: 100%;
+}
+
+.device-information-grid-container .device-information-grid-item {
+  width: 100%;
+}
+
+.device-information .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.device-information .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  min-height: 48px;
+  margin: 0;
+  width: calc(33% - 4px);
+}
+
+.device-information .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  min-height: 48px;
+  margin: 0;
+  width: calc(33% - 4px);
+}
+
+.device-information .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.device-information .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.device-information-grid-item input.input {
+  background: #f2f2f5;
+  border-right: 0;
+  color: #323234;
+}
+
+.device-information-grid-item .helperText {
+  margin: 5px 0 0;
+  text-align: right;
+}
+
+.device-information-grid-item .textarea-root {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+}

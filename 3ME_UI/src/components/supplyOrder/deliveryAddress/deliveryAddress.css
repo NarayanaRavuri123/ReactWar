@@ -1,0 +1,91 @@
+.delivery-address-container.delivery-address-container-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.delivery-address-container .address-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+.delivery-address-container .current-address-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: -9px;
+}
+.delivery-address-container .chkBoxMain .current-address-chkbox {
+  padding: 0;
+  margin-right: 16px;
+  margin-top: -9px;
+}
+.delivery-address-container .address-line-container {
+  margin-top: 20px;
+}
+.delivery-address-container .city-state-container {
+  margin-top: 8px;
+}
+.address-line-container .address-line1-item {
+  width: 100%;
+  max-width: 267px;
+  margin-right: 16px;
+}
+.address-line-container .address-line1 {
+  width: 100%;
+}
+.address-line-container .address-line2-item {
+  width: 100%;
+  max-width: 270px;
+}
+.address-line-container .address-line2 {
+  width: 100%;
+}
+.city-state-container .city-item {
+  max-width: 267px;
+  width: 100%;
+  margin-right: 16px;
+}
+.city-item .city {
+  width: 100%;
+}
+.city-state-container .state-item {
+  width: 100%;
+  max-width: 128px;
+  margin-right: 16px;
+}
+.city-state-container .state-item .state {
+  width: 100%;
+  height: 40px;
+}
+.city-state-container .state-item .muistate-select {
+  width: 100%;
+  height: 20px;
+}
+.city-state-container .zipcode-item {
+  width: 100%;
+  max-width: 128px;
+}
+.zipcode-item .zipcode {
+  width: 100%;
+}
+.patient-current-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808084;
+}
+.delivery-address-container .current-address-container {
+  margin-top: 27px;
+}
+.current-address-container .address-lines {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}

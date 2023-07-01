@@ -1,0 +1,41 @@
+.deleteOrderPopup {
+  width: 375px;
+  min-height: 202px;
+}
+.deleteOrderPopupContent {
+  padding: 16px 16px 8px;
+}
+.deleteOrderPopupTitle {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #323234;
+}
+.deleteOrderDNoBtn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px 0px;
+}
+.deleteOrderDYesBtn {
+  margin-top: 10px;
+  width: 100%;
+}
+.deleteOrderDOptBtnNo {
+  width: 100%;
+}
+.deleteOrderPopup .deleteOrderDYesBtn {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.deleteOrderPopup .deleteOrderDYesBtn:hover {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.deleteOrderDYesBtn {
+  background-color: #cb0000;
+  color: white;
+}

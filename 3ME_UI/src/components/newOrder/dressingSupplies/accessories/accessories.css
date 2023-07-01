@@ -1,0 +1,120 @@
+.add-accessories {
+  border: 1px solid #e4e4e8;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.add-accessories .add-accessories-grid-container {
+  width: 100%;
+}
+
+.add-accessories .add-accessories-grid-item {
+  margin-top: -12px;
+  width: 100%;
+}
+
+.add-accessories .add-accessories-header-div {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 16px 0 16px;
+  min-height: 38px;
+}
+
+.add-accessories-header-div .add-accessories-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 18px;
+}
+
+.add-accessories-header-div .add-accessories-description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: -8px;
+  min-height: 16px;
+}
+
+.add-accessories .accessories-list {
+  display: flex;
+  flex-direction: column;
+  margin: -24px 0px 0 16px;
+}
+
+.add-accessories .accessories-list.bottom {
+  margin-bottom: 16px;
+}
+
+.accessories-list .custom-removable-dropdown {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.accessories-list .reomove-accessory-button {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.accessories-list .accessory-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  min-height: 16px;
+}
+
+.accessories-list .add-accessories-input {
+  width: 100%;
+}
+
+.accessories-list .add-accessories-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.accessories-list div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.accessories-list .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.accessories-list .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.add-accessories .add-accessory-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 16px;
+  min-height: 16px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.add-accessories .add-accessory-icon {
+  transform: scale(1.5) !important;
+}

@@ -1,0 +1,39 @@
+.patient-load-spinner {
+    display: flex;
+    flex-direction: column;
+    height: 206px;
+    width: 383px;
+    justify-content: center;
+}
+
+.patient-locked {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323234;
+    flex: none;
+    margin: 56px 16px 0px 16px;
+}
+
+.patient-locked-desp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323234;
+    margin: 8px 16px 16px 16px;
+}
+
+.patient-load-spinner .cancelBtn {
+    margin: 0px 16px 16px 16px;
+}
+.patient-submitted-header {
+    margin: 20px 16px 16px 16px;
+}
+.patient-submitted{
+    height: 180px;
+    width: 368px;   
+    border-radius: 4px;
+    padding: 0px 0px 8px;
+   
+}

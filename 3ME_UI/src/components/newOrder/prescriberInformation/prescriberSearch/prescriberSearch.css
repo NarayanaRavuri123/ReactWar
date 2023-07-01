@@ -1,0 +1,147 @@
+.prescriber-search {
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.prescriber-search .header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+
+.prescriber-payer-inputs {
+  display: flex;
+  margin-top: 24px;
+}
+
+.prescriber-search-input {
+  width: 527px;
+}
+.prescriber-informantion-item {
+  width: 100%;
+}
+
+.prescriberSearchLabel .prescriber-informantion-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.pres-so-search-newmail .prescriber-informantion-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+}
+.prescriberSearchLabel {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.prescriber-informantion-item .searchPrescriberLabelSec {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+}
+
+.search-prescriber-inputs .pres-outlined-input-root {
+  width: 100%;
+  max-height: 40px;
+  margin-right: 8px;
+  max-width: 536px;
+}
+
+.search-prescriber-inputs .prescriber-search-results-container {
+  max-height: 220px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #ccccd0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  position: fixed;
+  max-width: 506px;
+  width: 100%;
+  z-index: 55;
+  margin: 0px 16px;
+}
+
+.prescriber-search-results-container .pres-so-search-results {
+  max-width: 568px;
+  min-height: 18px;
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prescriberNameList {
+  background-color: white;
+  font-weight: 700;
+  text-decoration: underline;
+
+  font-size: 14px;
+}
+
+.prescriberNameDiv {
+  margin-right: 8px;
+}
+
+.prescriberNPIList {
+  background-color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.dropDownPrescriberNPIList {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+
+.dropDownPrescriberNameList {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #323234;
+}
+
+.prescriber-search-results-container .pres-so-search-nores {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  cursor: default;
+  margin-right: 8px;
+}
+
+.pres-so-search-newmail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.crossClass {
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+export interface IPermissionData {
+  IsShowStartNewOrder: boolean;
+  IsShowSupplyOrderButton: boolean;
+  IsShowVacOrderButton: boolean;
+  IsShowInventoryOption: boolean;
+  IsShowAdminstrationOption: boolean;
+  IsSupportRole: boolean;
+  IsSalesRole: boolean;
+  IsSalesManagerRole: boolean;
+  IsFacilityAdminRole: boolean;
+  IsClinicianRole: boolean;
+  IsBaseRole: boolean;
+  Is3MAdminRole: boolean;
+  IsProdManagerRole: boolean;
+  IsAdminFacilitySettingsButton: boolean;
+  IsAdminFacilityUsersButton: boolean;
+  IsAdminMyListsButton: boolean;
+  IsAdminRolesPermissionButton: boolean;
+  IsAdminUserAccounts: boolean;
+  IsPrdMgrSiteStatus: boolean;
+  IsSalesMgrHistoryBtn?: boolean;
+  IsSalesMgrPeopleBtn?: boolean;
+  IsSalesTerritoriesBtn?: boolean;
+  IsShowManageAccountMenu: boolean;
+  IsShowAddWoundAssessmentMenu: boolean;
+  IsSalesRepDetails?: boolean;
+  IsManageUsersBtn?: boolean;
+  roleName?: string;
+}
+
+export let defaultPermissionDataModel: IPermissionData = {
+  IsShowStartNewOrder: false,
+  IsShowSupplyOrderButton: false,
+  IsShowVacOrderButton: false,
+  IsShowInventoryOption: false,
+  IsShowAdminstrationOption: false,
+  IsSupportRole: false,
+  IsSalesRole: false,
+  IsSalesManagerRole: false,
+  IsFacilityAdminRole: false,
+  IsClinicianRole: false,
+  IsBaseRole: false,
+  Is3MAdminRole: false,
+  IsProdManagerRole: false,
+  IsAdminFacilitySettingsButton: false,
+  IsAdminFacilityUsersButton: false,
+  IsAdminMyListsButton: false,
+  IsAdminRolesPermissionButton: false,
+  IsAdminUserAccounts: false,
+  IsShowManageAccountMenu: false,
+  IsPrdMgrSiteStatus: false,
+  IsSalesMgrHistoryBtn: false,
+  IsSalesMgrPeopleBtn: false,
+  IsSalesTerritoriesBtn: false,
+  IsShowAddWoundAssessmentMenu: false,
+  IsSalesRepDetails: false,
+  IsManageUsersBtn: false,
+  roleName: "",
+};

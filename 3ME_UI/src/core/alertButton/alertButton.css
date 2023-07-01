@@ -1,0 +1,52 @@
+.alert-box{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px 12px 8px;
+    border-radius: 5px;
+    align-items: flex-start;
+    max-width: 189px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+.alert-box-small-padding{
+    padding: 4px 12px 4px 8px;
+}
+.alert-box .label-arrow-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.alert-box .alert-name{
+    margin-right: 22px;
+    font-family: '3MCircularTT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+.alert-box .alert-label-and-date{
+    font-family: '3MCircularTT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4C4C4F;
+}
+.alert-arrow-icon path{
+    stroke: green;
+}
+.alert-box-container .alert-dialog{
+    min-width: 300px;
+    min-height: 10px;
+    background-color: #fff;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+    .alert-box {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+}

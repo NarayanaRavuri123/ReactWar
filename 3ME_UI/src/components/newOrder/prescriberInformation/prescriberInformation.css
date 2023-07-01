@@ -1,0 +1,134 @@
+.prescriber-informantion {
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.prescriber-informantion-div {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.prescriberDiv {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.prescriberDiv .presDesc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}
+
+.prescriber-informantion .prescriber-informantion-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.prescriber-informantion .prescriber-informantion-grid-container {
+  width: 100%;
+}
+
+.insurance-informantion-grid-container .insurance-informantion-input {
+  width: 100%;
+}
+
+.prescriber-informantion .prescriber-informantion-button {
+  border: 1px solid #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: 48px;
+  line-height: 20px;
+  margin-top: -16px;
+  text-transform: none;
+  width: 100%;
+}
+
+.prescriber-informantion-item {
+  width: 100%;
+}
+
+.searchprescriber .paperRoot {
+  width: 100%;
+  max-width: 574px;
+}
+.nationregistrysearch .paperRoot {
+  width: 100%;
+  max-width: 574px;
+}
+
+.nationregistryresult .paperRoot {
+  width: 100%;
+  max-width: 574px;
+  overflow-y: hidden;
+}
+.nationregistrynoresult .paperRoot {
+  width: 100%;
+  max-width: 574px;
+  min-height: 210px;
+}
+.prescriber-selected-details {
+  border: 1px solid #94949a;
+  padding: 16px 16px;
+}
+
+.prescriber-selected-details .prescriber-selected-name {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.prescriberSelectedChangePresBtn .prescriber-selected-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  justify-content: flex-end;
+  line-height: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-decoration: underline;
+  text-transform: none;
+  width: 100%;
+}
+
+.prescriber-selected-div .prescriberSelectedSubHeader {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808084;
+}
+.prescriber-selected-fax {
+  margin-top: 15px;
+}
+
+.prescriber-selected-address {
+  margin-top: 15px;
+}
+
+.prescriber-selected-address-body {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}

@@ -1,0 +1,64 @@
+.add-facility-popup .search-facility-container{
+    display: flex;
+    flex-direction: column;
+}
+.search-facility-container .search-facility-title{
+    font-family: '3MCircularTT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323234;
+    width: 100%;
+}
+.search-facility-container .search-field-container{
+    width: 100%;
+    display: flex;
+    gap:16px;
+    margin-top: 24px;
+}
+.search-field-container .search-facility-name{
+    width: 100%;
+    max-width: 276px;
+}
+.search-field-container .search-facility-zipcode{
+    width: 100%;
+    max-width: 90px;
+}
+.search-field-container .search-facility-submit{
+    display: flex;
+    width: 100%;
+    max-width: 144px;
+}
+.search-field-container .facility-name,.facility-zipcode,.facility-id{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+.search-field-container .search-btn{
+    width: 100%;
+    margin-top: auto;
+}
+.search-field-container .search-facility-id{
+    width: 100%;
+    max-width: 382px;
+}
+.search-facility-container .name-id-separator{
+    font-family: '3MCircularTT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #4C4C4F;
+    margin-top: 24px;
+}
+
+.search-facility-loader{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 212px;
+}

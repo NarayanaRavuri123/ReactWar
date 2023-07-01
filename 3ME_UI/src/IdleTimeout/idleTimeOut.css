@@ -1,0 +1,65 @@
+.idleTimeOutPopup {
+  width: 590px;
+  min-height: 302px;
+}
+.idleTimeOutPopupContent {
+  padding: 16px 22px 6px 26px;
+}
+.idleTimeOutPopupTitle {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: #323234;
+  padding: 2px 2px 2px;
+}
+.idleTimeOutPopupTime {
+  font-size: 30px;
+  margin: 1px 0px 0px 0px;
+}
+.idleTimeOutPopupdesc {
+  font-size: 17px;
+  font-weight: 300;
+  color: #323234;
+  padding: 35px 2px 2px;
+  line-height: 6px;
+}
+.idleTimeOutPopupsubdesc {
+  font-size: 17px;
+  font-weight: 300;
+  color: #323234;
+  padding: 25px 2px 2px -1px;
+  margin: 11px 0px 0px 0px;
+}
+
+.idleTimeOutPopup .idleTimeOutDNoBtn {
+  width: 99%;
+  background-color: white;
+  color: #cb0000;
+  text-transform: none;
+  padding: 0px;
+  border-color: #cb0000;
+  font-size: 18px;
+  margin-top: 18px;
+  height: 52px;
+}
+.idleTimeOutPopup .idleTimeOutDNoBtn:hover {
+  width: 99%;
+  background-color: white;
+  color: #cb0000;
+  text-transform: none;
+  padding: 0px;
+  border-color: #cb0000;
+  font-size: 18px;
+  margin-top: 18px;
+  height: 52px;
+}
+
+.idleTimeOutPopup .idleTimeOutDYesBtn {
+  width: 99%;
+  color: white;
+  text-transform: none;
+  padding: 0px;
+  font-size: 18px;
+  margin-top: 18px;
+  height: 52px;
+}

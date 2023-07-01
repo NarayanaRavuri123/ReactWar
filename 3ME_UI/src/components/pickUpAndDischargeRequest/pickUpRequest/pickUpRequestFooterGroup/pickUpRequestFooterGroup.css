@@ -1,0 +1,99 @@
+.footer-btn-group .pickup-request-tool-bar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.pickup-request-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 40px;
+  margin-left: calc(15% + 16px);
+  margin-right: 104px;
+  width: 100%;
+}
+
+.pickup-request-left-container {
+  display: flex;
+  flex-direction: row;
+  /* align-self: start; */
+  /* float: left;
+  justify-content: flex-start;
+  position: relative; */
+}
+
+.pickup-request-right-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+
+  /* float: right; */
+  justify-content: flex-end;
+  /* position: relative; */
+  /* width: 50%; */
+}
+
+.boxOrderStyle {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-right: -8px;
+}
+
+.boxOrderStyle .firstButton {
+  color: #cb0000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  min-width: 76px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-decoration-color: #cb0000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.boxOrderStyle .firstButton:hover {
+  background-color: unset;
+  text-decoration: underline;
+  text-decoration-color: #cb0000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.boxOrderStyle .secondButton {
+  min-width: 140px;
+}
+
+.boxOrderStyle .thirdButton {
+  min-width: 192px;
+  text-transform: none;
+}
+
+.boxOrderStyle .thirdButton-disabled {
+  background: #e4e4e8;
+  color: #76767a;
+  min-width: 192px;
+  text-transform: none;
+}
+.myGrid {
+  column-gap: 80px;
+}
+@media only screen and (max-width: 600px) {
+  .pickup-request-tool-bar .pickup-request-main-container {
+    display: flex;
+    flex-direction: "column-reverse";
+  }
+  .pickup-request-right-container {
+    width: max-content;
+  }
+  .pickup-request-left-container {
+    padding-left: 100px;
+  }
+}

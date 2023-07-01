@@ -1,0 +1,32 @@
+.review-exposed-structure .review-exposedstr-title {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+}
+.review-exposed-structure .review-exposedstr-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.review-exposedstr-row {
+  display: flex;
+  flex-direction: row;
+}
+.review-exposed-structure
+  .review-woundExposedstructures-edit
+  .review-woundExposedstructures-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 36px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}

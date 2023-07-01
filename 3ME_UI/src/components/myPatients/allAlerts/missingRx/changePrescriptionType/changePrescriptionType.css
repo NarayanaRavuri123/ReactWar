@@ -1,0 +1,120 @@
+.change-prescription {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 16px;
+  margin-right: 16px;
+  line-height: 18px;
+  color: #323234;
+}
+
+.changePres-title-msg-div {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 16px;
+  width: calc(100% - 16px);
+}
+
+.changePres-title-msg {
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 16px;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  line-height: 16px;
+  color: #323234;
+}
+
+.changePres-title-msg-div .button-printrx-change-prescription-rx {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  height: 32px;
+  margin: auto;
+  text-transform: none;
+}
+
+.changePrescriptionType {
+  min-height: 330px;
+  margin: 16px;
+  width: calc(100% - 32px);
+}
+
+.change-prescription .change-prescription-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.change-prescription-header .change-prescription-subTitle-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.change-prescription-subTitle-div .change-prescription-subTitle {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+.change-prescription-subTitle-div .change-prescription-subTitle-astrick {
+  color: #d32f2f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+}
+
+.change-prescription-grid-container .change-prescription-grid-item {
+  width: 100%;
+}
+
+.change-prescription-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.change-prescription-grid-item .cancelBtn {
+  width: 100%;
+}
+
+.change-prescription-grid-item .submitBtn {
+  width: 100%;
+}
+
+.boxOrderStyleChangePrescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.changesPrescriptionButtons .boxOrderStyleChangePrescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.patientNamespan {
+  text-transform: capitalize;
+}
+
+.change-prescription-main-div {
+  width: 100%;
+}

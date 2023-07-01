@@ -1,0 +1,90 @@
+.home-care-provider-review-order {
+  margin: 0;
+  width: calc(100% - 8px);
+}
+
+.home-care-provider-review-order .home-care-provider-component-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 24px 0 0 0;
+  width: 100%;
+}
+
+.home-care-provider-review-order
+  .home-care-provider-component-title
+  .home-care-provider-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.home-care-provider-review-order
+  .home-care-provider-component-title
+  .home-care-provider-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.home-care-provider-review-order .all-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -6px;
+  width: 100%;
+}
+
+.home-care-provider-review-order .content-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.home-care-provider-review-order .content-div-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.home-care-provider-review-order .sub-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.sub-content-div .home-care-provider-review-order-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.sub-content-div .home-care-provider-review-order-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}

@@ -1,0 +1,102 @@
+.currentSupplies-orderoverview {
+  margin: 0px 0px 0px 0px;
+  width: calc(100% - 4px);
+  margin-left: 2px;
+}
+
+.currentSupplies-orderoverview .patient-info-orderoverview-page-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px;
+}
+
+.all-content-div .currentSupplies-info-component-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px 0 0 0;
+  width: 100%;
+}
+
+.currentSupplies-orderoverview
+  .currentSupplies-info-component-title
+  .currentSupplies-info-orderoverview-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.currentSupplies-orderoverview .all-content-div {
+  border: 1px solid #e4e4e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 14px;
+  width: calc(100% - 31px);
+}
+
+.currentSupplies-orderoverview .content-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  margin-left: 14px;
+  width: 100%;
+}
+
+.currentSupplies-orderoverview .content-div-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.currentSupplies-orderoverview .sub-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  column-gap: 30px;
+  width: 100%;
+}
+
+.sub-content-div .currentSupplies-info-orderoverview-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.sub-content-div .currentSupplies-info-orderoverview-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}
+
+@media only screen and (max-width: 400px) {
+  .sub-content-div .currentSupplies-info-orderoverview-content-value {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sub-content-div .currentSupplies-info-orderoverview-content-title {
+    font-size: 10px;
+  }
+  .sub-content-div .currentSupplies-info-orderoverview-content-title {
+    width: 97px;
+  }
+}

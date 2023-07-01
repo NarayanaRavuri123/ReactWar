@@ -1,0 +1,199 @@
+.order-overview-documents {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  width: calc(100% - 32px);
+}
+
+.order-overview-documents .missing-docs-alert {
+  align-items: flex-start;
+  background: #fff0f0;
+  border-left: 5px solid #cb0000;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 8px 0;
+  margin: 0;
+  width: calc(100% - 5px);
+}
+
+.order-overview-documents .missing-docs-alert .missing-docs-alert-title {
+  color: #cb0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 8px 0 0 12px;
+}
+
+.missing-document-delay-reason-and-details {
+  display: flex;
+  flex-direction: row;
+  margin: 0 16px;
+  width: calc(100% - 32px);
+}
+
+.missing-document-delay-reason-and-details
+  .missing-document-delay-reason-and-details-text {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 0 8px;
+}
+
+.missing-document-delay-reason-and-details
+  .missing-document-delay-reason-and-details-text
+  .dot-with-space {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 8px;
+}
+
+.missing-document-delay-reason-and-details
+  .missing-document-delay-reason-and-details-text
+  .delay-reason-and-details-text-bold {
+  font-weight: 700;
+  margin: 0;
+}
+
+.orderOverviewPrintDoc {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0 0 0;
+  width: 100%;
+}
+.orderOverviewPrintDoc.no-top-space {
+  margin: 0;
+}
+
+.orderOverviewPrintDoc .orderOverviewPrintDoc-grid-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.orderOverviewPrintDoc
+  .orderOverviewPrintDoc-grid-container
+  .orderOverviewPrintDoc-grid-item {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.orderOverviewPrintDoc-grid-item .orderOverviewPrintDoc-title-div {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: auto 0;
+  width: 100%;
+}
+
+.orderOverviewPrintDoc-grid-item
+  .orderOverviewPrintDoc-title-div
+  .orderOverviewPrintDoc-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: auto 0;
+}
+
+.orderOverviewPrintDoc-grid-item .download-and-print-coversheet-div {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.orderOverviewPrintDoc-grid-item
+  .download-and-print-coversheet-div
+  .orderOverviewLinkButton-title {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.orderOverviewPrintDoc .orderOverviewLinkButton-title:hover {
+  text-decoration: underline;
+  color: #0049bd;
+}
+
+.orderOverviewPrintDoc-grid-item .empty {
+  margin: 10px 0;
+  height: 1px;
+  width: 100%;
+}
+
+.orderOverviewPrintDoc-grid-item .dropdown-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.orderOverviewPrintDoc
+  .orderOverviewPrintDoc-input
+  .orderOverviewPrintDoc-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.orderOverviewPrintDoc-grid-container .orderOverviewPrintDoc-input {
+  width: 100%;
+}
+
+.order-overview-documents .printCommonDocs-input .printCommonDocs-select {
+  height: 12px;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.order-overview-documents div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+.order-overview-documents .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+.orderOverviewPrintDoc-grid-container .printCommonDocs-input {
+  width: 100%;
+}
+
+.order-overview-documents .orderOverviewPrintDoc-grid-container {
+  width: 100%;
+}
+
+.orderOverviewPrintDoc-grid-item .button-orderOverviewPrintDoc {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  height: 40.125px;
+  line-height: 18px;
+  margin: 0 16px;
+  text-transform: capitalize;
+  width: 122px;
+}

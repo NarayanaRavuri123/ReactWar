@@ -1,0 +1,22 @@
+.registered-permissions-component .roles-permission-main-section-sub-div {
+  margin-top: 40px;
+}
+
+.registered-permissions-component .roles-permission-sub-div-header {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.registered-permissions-component .roles-permission-sub-div-desc {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 8px 40px;
+}

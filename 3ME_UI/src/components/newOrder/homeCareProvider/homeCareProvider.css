@@ -1,0 +1,222 @@
+.homecareprovider {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.homecareprovider .homecareprovider-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.homecareprovider .homecareprovider-box-container {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.homecareprovider .homecareprovider-grid-container {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.homecareprovider-grid-container .homecareprovider-grid-item {
+  width: 100%;
+}
+
+.homecareprovider .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.homecareprovider .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.homecareprovider .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.homecareprovider .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.homecareprovider .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.searchhomecareprovider .paperRoot {
+  width: 100%;
+  max-width: 574px;
+}
+
+.addmanualhomecareprovider .paperRoot {
+  width: 100%;
+  max-width: 574px;
+  max-height: 424px;
+  height: 100%;
+}
+
+.loader .paperRoot {
+  width: 100%;
+  max-width: 574px;
+  max-height: 224px;
+  height: 100%;
+}
+
+.homecareprovider-item {
+  width: 100%;
+}
+
+.homecare-provider-label-item {
+  margin-top: 2%;
+}
+
+.homecareSelectedChangePresBtn .homecare-selected-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.homecareprovider .homecareprovider-button {
+  border: 1px solid #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: 48px;
+  line-height: 20px;
+  margin-top: -16px;
+  text-transform: none;
+  width: 100%;
+}
+
+.homecareprovider .caregiver-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  padding: 16px;
+  border: 1px solid #e4e4e8;
+  margin-top: 16px;
+  margin-left: 16px;
+  width: 100%;
+}
+
+.caregiver-container .caregiver-name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.caregiver-container .caregiver-name {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.caregiver-name-container .change-provider-btn {
+  color: #0049bd;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
+
+.caregiver-container .caregiver-address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.caregiver-container .address-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.caregiver-container .address-part.address-div {
+  width: 45%;
+  height: 100%;
+}
+
+.caregiver-container .address-part.facility-type-div {
+  width: 30%;
+  height: 100%;
+}
+
+.address-part .address-header {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.address-part .caregiver-address {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-right: 10px;
+  width: 320px;
+}
+
+.homecareprovider-spinner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  min-height: 224px;
+}
+
+.changeProviderButton {
+  padding: 11px 14px;
+  gap: 4px;
+  width: 215px;
+  height: 40px;
+  border-color: #0049bd;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: white;
+  color: #0049bd;
+  font-weight: 700;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+}

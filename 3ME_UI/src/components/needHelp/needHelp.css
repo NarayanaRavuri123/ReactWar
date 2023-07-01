@@ -1,0 +1,58 @@
+.help-container {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4C4C4F;
+  padding: 16px 16px 24px 16px;
+  height: fit-content;
+}
+.baseRole {
+  margin-top: -16px;
+}
+.section {
+  margin-top: 16px;
+}
+
+.sub-section {
+  margin: 4px 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.head {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.sub-head {
+  font-size: 12px;
+  margin: 0;
+}
+
+.sub-head-2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 4px 0;
+}
+
+.contact-type {
+  font-weight: 400;
+  color: #76767a;
+}
+
+.contact-value {
+  color: #0049BD;
+  text-decoration-line: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .section {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,31 @@
+.contact-us-sent-page .info {
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  color: #323234;
+}
+
+.contact-us-sent-page h2 {
+  color: #323234;
+}
+
+.contact-us-sent-page::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.contact-us-sent-page .info:first-of-type {
+  margin-bottom: 16px;
+}
+
+.contact-us-sent-page .returnBtn {
+  margin-top: 40px;
+  float: right;
+  background: #0049bd;
+  border-radius: 2px;
+  line-height: 18px;
+  font-family: "3MCircularTT";
+  padding: 11px 14px;
+  text-transform: none;
+}

@@ -1,0 +1,129 @@
+.undermining {
+  width: 100%;
+  margin-top: 41px;
+}
+
+.undermining-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+
+.undermining .undermining-box-container {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.undermining .undermining-grid-container {
+  width: 100%;
+  gap: 7px;
+}
+
+.undermining-grid-container .undermining-grid-item {
+  width: 100%;
+  gap: 10px;
+}
+
+.undermining .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.undermining .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.undermining .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.undermining .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.undermining .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.depth-input {
+  width: 100%;
+}
+
+.undermining .clockPosition-input .clockPosition-select {
+  height: 12px;
+  width: 242px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.undermining .clockPosition-input {
+  width: 105px;
+}
+
+.undermining .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.undermining .undermining-box-container div.placeHolder {
+  border-radius: 2px;
+  width: 100px;
+}
+
+.undermining .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 10px;
+  width: 242px;
+}
+
+.undermining .MuiSelect-icon {
+  top: calc(50% - 0.4em);
+}
+
+.clockText1 {
+  align-self: center;
+  top: 20px;
+  margin-left: 4px;
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 0px;
+}
+
+.fromToText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 0px;
+  margin-top: 34px;
+}
+ @media only screen and (max-width:1200px)  {
+  .undermining .undermining-box-container  {
+   width: 570px;
+    }
+  }
+@media only screen and (max-width:1200px)   {
+.clockText1{
+  margin-left: 15px;
+  }
+} 

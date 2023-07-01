@@ -1,0 +1,11 @@
+.question-container .outline {
+  border-radius: 2px;
+}
+
+.question-container .dateQuestionRoot.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.question-container .dateQuestionRoot.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}

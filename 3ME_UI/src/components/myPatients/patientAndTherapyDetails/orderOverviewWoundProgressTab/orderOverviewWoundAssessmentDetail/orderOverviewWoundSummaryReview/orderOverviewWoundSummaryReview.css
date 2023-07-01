@@ -1,0 +1,12 @@
+.order-overview-wound-summary-review-grid-container {
+  margin: 0px;
+  padding: 0px !important;
+  width: 100%;
+}
+
+.order-overview-wound-summary-review-grid-container
+  .order-overview-wound-summary-review-grid-item {
+  margin: 0px;
+  padding: 0px !important;
+  width: 100%;
+}

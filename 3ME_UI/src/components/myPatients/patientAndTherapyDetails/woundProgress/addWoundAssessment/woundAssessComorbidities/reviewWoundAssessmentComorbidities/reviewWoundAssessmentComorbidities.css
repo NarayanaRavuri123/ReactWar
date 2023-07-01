@@ -1,0 +1,32 @@
+.review-comorbidities .review-comobidities-title {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+}
+.review-comobidities-row {
+  display: flex;
+  flex-direction: row;
+}
+.review-comorbidities .review-comobidities-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.review-comorbidities
+  .review-woundComorbidities-edit
+  .review-woundComorbidities-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 15px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.accountInfo {
+  margin: 0 -16px 40px -16px;
+  width: 100%;
+}
+
+.account-info-input {
+  width: 100%;
+}
+
+.accountInfo-grid-container .grid-item-width {
+  width: 100%;
+}
+
+.accountInfo .accountInfo-grid-container {
+  width: 100%;
+}
+
+.account-info-input.account-info .acount-info-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.accountInfo .manage-profile-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 8px 0;
+}
+
+.manage-profile .accountInfo {
+  margin: 0 0 40px 0;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .accountInfo .accountInfo-grid-container {
+    width: 100%;
+    margin: 0;
+  }
+  .accountInfo .manage-profile-header {
+    padding-left: 8px;
+  }
+}

@@ -1,0 +1,23 @@
+.supplyorderstepper-container {
+  margin: 16px 0px 16px 16px;
+}
+.supplyorderstepperForm {
+  background-color: #fff;
+  margin-right: 57px;
+  margin-bottom: 0px;
+}
+.supplyorderstepperForm .short-form {
+  width: 65.56%;
+}
+.supplyorderstepperForm .space-bottom {
+  height: 40px;
+}
+
+@media only screen and (max-width: 820px) {
+  .supplyorderstepper-container {
+    margin: 0px;
+  }
+  .supplyorderstepperForm {
+    margin-right: 0px;
+  }
+}

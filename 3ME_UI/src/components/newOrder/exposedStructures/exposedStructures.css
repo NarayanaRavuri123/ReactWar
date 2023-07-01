@@ -1,0 +1,33 @@
+.exposed-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+}
+
+.exposed-container .exposed-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+
+.exposed-container .exposed-structures-unchecked {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #656569;
+}
+
+.exposed-container .exposed-structures-checked {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}

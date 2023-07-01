@@ -1,0 +1,104 @@
+.therapystatus {
+  margin-top: 32px;
+  width: 560px;
+}
+.therapystatus-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+
+.therapystatus .therapystatus-box-container {
+  margin-top: 8px;
+  width: 97%;
+}
+
+.therapystatus .therapystatus-grid-container {
+  width: 106%;
+}
+
+.therapystatus-grid-container .therapystatus-grid-item {
+  width: 100%;
+}
+
+.therapystatus .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.therapystatus .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.therapystatus .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.therapystatus .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.therapystatus .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.woundDiscontinuedDate input.input {
+  border-right: 0;
+}
+
+div.woundDiscontinuedDate {
+  padding-right: 0;
+}
+
+.woundDiscontinuedDate .outline {
+  border-radius: 2px;
+}
+
+.woundDiscontinuedDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.woundDiscontinuedDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}
+
+div.placeholder {
+  border-radius: 2px;
+  color: #76767a;
+}
+
+.placeholder div.placeholder {
+  border-right: unset;
+  height: 20px;
+}
+
+div.selectRootDiscontinuedReason {
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+
+.selectRootDiscontinuedReason div.selectDiscontinuedReason {
+  border-right: unset;
+  height: 20px;
+}
+
+.selectRootDiscontinuedReason .selectIcon {
+  top: 10px;
+}

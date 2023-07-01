@@ -1,0 +1,138 @@
+.submitted-documents-component {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.submitted-documents-component .submitted-documents-info {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+}
+.submitted-documents-info .submitted-documents-info-header {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 16px;
+}
+.submitted-documents-info-header .submitted-documents-info-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #323234;
+}
+.submitted-documents-info .submitted-documents-info-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin: 4px 16px 11px 0;
+}
+.submitted-documents-info-button .parent-button {
+  align-items: center;
+  padding: 4px 12px 4px 8px;
+  height: 32px;
+  background: #ffffff;
+}
+
+.submitted-documents-info-button .list-view-button {
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid #94949a;
+}
+.submitted-documents-info-button .list-view-button-selected {
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid #0049bd;
+}
+.submitted-documents-info-button .grid-view-button {
+  background: #f8f8fa;
+  border: 1px solid #94949a;
+  border-radius: 0px 2px 2px 0px;
+}
+.submitted-documents-info-button .grid-view-button-selected {
+  border: 1px solid #0049bd;
+}
+.submitted-documents-component .submit-documents-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 16px 16px 16px;
+}
+.submitted-documents-component .submit-documents-content-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  margin: 0;
+}
+.submitted-documents-component .submitted-documents-list-div {
+  padding: 0;
+  margin: 0 0px 16px 0px;
+}
+.submitted-documents-component .mainDiv-list {
+  max-height: 200px;
+  overflow: auto;
+  overflow-y: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.submitted-documents-component .mainDiv-grid {
+  margin: 0;
+  max-height: 310px;
+  overflow: auto;
+  overflow-y: auto;
+  margin-left: 16px;
+}
+.icon-text {
+  margin-top: 4px;
+  margin-left: 3px;
+  color: #94949a;
+}
+.icon-text-selected {
+  margin-top: 4px;
+  margin-left: 3px;
+  color: #0049bd;
+}
+.submitted-documents-info-button .grid-view-button:hover {
+  border: 1px solid #94949a;
+  background: #f8f8fa;
+}
+.submitted-documents-info-button .grid-view-button-selected:hover {
+  border: 1px solid #0049bd;
+  background: #f8f8fa;
+}
+.submitted-documents-info-button .list-view-button:hover {
+  border: 1px solid #94949a;
+  background: #f8f8fa;
+}
+.submitted-documents-info-button .list-view-button-selected:hover {
+  border: 1px solid #0049bd;
+  background: #f8f8fa;
+}
+.submittedDocumentTrackingToast {
+  position: fixed;
+  z-index: 1;
+  left: 35%;
+  top: 0;
+  max-width: 30%;
+  margin-top: 6px;
+}
+.submitted-documents-list-not-avaliable-item {
+  padding: 0;
+}
+.submitted-documents-list-not-avaliable-item
+  .submitted-documents-list-not-avaliable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.submitted-documents-list-not-avaliable
+  .submitted-documents-list-not-avaliable-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #323234;
+}

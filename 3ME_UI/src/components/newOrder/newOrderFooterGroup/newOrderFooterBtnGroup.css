@@ -1,0 +1,258 @@
+.boxOrderStyle .nextBtnNewOrder {
+  width: 140px;
+}
+
+.prevBtn .previousBtn {
+  margin-right: 8px;
+  padding-right: 57px;
+  padding-left: 57px;
+}
+
+.shareOrderGrid .shareOrderButton {
+  height: 40px;
+}
+
+.footerGrid .shareOrderGrid {
+  margin-left: -18px;
+}
+
+.boxOrderStyle .previousBtn {
+  width: 140px;
+}
+
+.boxOrderStyle .shareOrderButton {
+  height: 40px;
+}
+
+.shareOrderImageDisabled {
+  position: relative;
+  right: 6px;
+  bottom: 2px;
+  color: gray;
+}
+.shareOrderImage {
+  position: relative;
+  right: 6px;
+  bottom: 2px;
+}
+
+.boxOrderStyle .textOrderClass {
+  text-decoration-color: #cb0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  text-decoration-color: #cb0000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.errorTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+  margin-bottom: 24px;
+}
+
+.cancelOrderPopup .paperRoot {
+  width: 383px;
+  height: 240px;
+}
+
+.cancelConfirmationText {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.cancelConfirmationDescText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.errorDetail {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+
+.cancelOrderPopup .backOrderBtn {
+  margin: 10px 16px 10px 16px;
+}
+
+.cancelOrderPopup .canceOrderlBtn {
+  margin: 0px 16px 10px 16px;
+  text-transform: none;
+  background-color: #cb0000;
+}
+
+.cancelOrderPopup .canceOrderlBtn:hover {
+  margin: 0px 16px 10px 16px;
+  text-transform: none;
+  background-color: #cb0000;
+}
+
+.nextOrderPopup .paperRoot {
+  padding: 32px 24px 32px 24px;
+  width: 675px;
+}
+
+.next-order-pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nextOrderPopup .popupCloseIcon {
+  display: none;
+}
+
+.next-order-pop-up .nextOrderPopupText {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.next-order-pop-up .nextOrderPopupDescText {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 16px 0 24px 0;
+}
+
+.next-order-pop-up .nextOrderBtnDiv {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  margin: 0px;
+}
+
+.nextOrderBtnDiv .nextOrderSubmitBtn {
+  padding: 14px, 16px, 14px, 16px !important;
+  width: 301.5px;
+}
+
+.nextOrderBtnDiv .nextOrderPartialButton {
+  background-color: #0049bd;
+  margin-left: 24px;
+  text-transform: none;
+  padding: 14px, 16px, 14px, 16px !important;
+  width: 301.5px;
+}
+
+.orderMaincontainer {
+  width: 96%;
+  flex-wrap: wrap;
+  height: 40px;
+}
+
+.footer-btn-group .orderToolBar {
+  width: 100%;
+  padding: 0;
+  min-height: 40px;
+}
+
+.orderLeftContainer {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: flex-start;
+  margin-top: 8px;
+  left: 15%;
+  position: relative;
+  width: 60%;
+}
+
+.orderRightContainer {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 8px;
+  width: 40%;
+}
+
+.boxOrderStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: -8px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .orderLeftContainer {
+    position: unset;
+    left: 0px;
+  }
+
+  .orderRightContainer {
+    position: unset;
+    right: 0px;
+  }
+}
+.exitCancelBtn {
+  margin: 16px 16px 16px 16px;
+  margin-top: 20px;
+}
+
+.exitBtn {
+  margin: 0px 16px 10px 16px;
+  text-transform: none;
+}
+.deleteOrderPopup {
+  width: 375px;
+}
+.deleteOrderPopupContent {
+  padding: 16px 16px 8px;
+}
+.deleteOrderPopupTitle {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #323234;
+}
+.deleteOrderDNoBtn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px 0px;
+}
+.deleteOrderDYesBtn {
+  margin-top: 10px;
+  width: 100%;
+}
+.deleteOrderDOptBtnNo {
+  width: 100%;
+}
+.deleteOrderPopup .deleteOrderDYesBtn {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.deleteOrderPopup .deleteOrderDYesBtn:hover {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.deleteOrderDYesBtn {
+  background-color: #cb0000;
+  color: white;
+}

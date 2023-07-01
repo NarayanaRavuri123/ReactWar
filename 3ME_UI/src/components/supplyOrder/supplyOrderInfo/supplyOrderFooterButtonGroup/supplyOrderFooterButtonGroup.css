@@ -1,0 +1,131 @@
+.customFooterStyle {
+  background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.14),
+    0px 3px 3px rgba(0, 0, 0, 0.12);
+  height: 72px;
+  left: 0;
+  position: fixed;
+  text-align: right;
+  top: auto;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+.footer-btn-group .footerMainDiv {
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+}
+.footer-btn-group .supplyOrderToolBar {
+  width: 100%;
+  padding: 0;
+  min-height: 40px;
+}
+.supplyOrderMaincontainer {
+  width: 96%;
+  flex-wrap: wrap;
+  height: 40px;
+}
+
+.supplyOrderLeftContainer {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: flex-start;
+  margin-top: 8px;
+  left: 15%;
+  position: relative;
+  width: 60%;
+}
+.supplyOrderRightContainer {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 8px;
+  width: 40%;
+}
+.boxSupplyOrderStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: -8px;
+}
+
+.boxSupplyOrderStyle .deleteOrderClass {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  text-decoration-color: #cb0000;
+  text-decoration: underline;
+  display: inline-block;
+}
+.deleteOrderClass:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  text-decoration-color: #cb0000;
+  text-decoration: underline;
+  display: inline-block;
+}
+.boxSupplyOrderStyle .reviewOrderClass {
+  width: 140px;
+  margin-right: 100px;
+}
+.boxSupplyOrderStyle .backBtnReviewClass {
+  width: 140px;
+  margin-right: 10px;
+}
+.supplyOrderDPopup {
+  width: 375px;
+  height: 202px;
+}
+.supplyOrderDPopupContent {
+  padding: 16px;
+}
+.supplyOrderDPopupTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #323234;
+}
+.supplyOrderDNoBtn {
+  margin-top: 24px;
+  width: 100%;
+}
+.supplyOrderDYesBtn {
+  margin-top: 8px;
+  width: 100%;
+}
+.supplyOrderDOptBtnNo {
+  width: 100%;
+}
+.supplyOrderDPopup .supplyOrderDOptBtnYes {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.supplyOrderDPopup .supplyOrderDOptBtnYes:hover {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+@media only screen and (max-width: 1100px) {
+  .supplyOrderLeftContainer {
+    position: unset;
+    left: 0px;
+  }
+
+  .supplyOrderRightContainer {
+    position: unset;
+    right: 0px;
+  }
+}

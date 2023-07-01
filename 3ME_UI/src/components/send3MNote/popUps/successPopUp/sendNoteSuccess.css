@@ -1,0 +1,32 @@
+.success-pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 16px;
+  height: 208px;
+  width: 516px;
+}
+
+.success-pop-up .title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.success-pop-up .description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 8px 0 32px 0;
+}
+
+.success-pop-up .back-button {
+  margin: 0px;
+  text-transform: none;
+  width: 100%;
+}

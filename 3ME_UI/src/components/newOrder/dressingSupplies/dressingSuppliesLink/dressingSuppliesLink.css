@@ -1,0 +1,73 @@
+.linkMain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.linkButton {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0049bd;
+  text-decoration-line: underline;
+}
+
+.linkbuttonMargin {
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.newTabImg {
+  margin-left: 4px;
+  position: relative;
+  bottom: 2px;
+}
+
+.dressing-dialog {
+  min-width: 775px;
+  min-height: 677px;
+  overflow-x: hidden;
+}
+
+.body-dailog {
+  margin-top: 40px;
+}
+
+.dressingsize-dialog {
+  min-width: 713px;
+  min-height: 397px;
+}
+
+.size-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.size-text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.dressingsizebody-dailog {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.size-maincontainer {
+  margin-top: 40px;
+  padding: 16px 16px 32px 16px;
+}
+
+.linkButtonWtg {
+  position: relative;
+  bottom: 6px;
+}
+
+.wtgAnchor {
+  text-decoration: none;
+}

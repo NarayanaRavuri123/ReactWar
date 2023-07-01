@@ -1,0 +1,87 @@
+.nr-result {
+  padding: 16px;
+}
+
+.nr-result .header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+
+.nr-spinner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 15%;
+}
+
+.nr-backButton {
+  min-height: 40px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.filter-npi-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  min-height: 40px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.nr-result .MuiOutlinedInput-root {
+  max-height: 42px;
+}
+
+.nr-result .select-patient-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #0049bd;
+  cursor: pointer;
+}
+
+.nr-result .select-patient-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #0049bd;
+  cursor: pointer;
+}
+
+.nr-result .table-static-data {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.nr-table {
+  min-height: 320px;
+  max-height: 320px;
+  overflow-y: auto;
+  margin-bottom: 24px;
+}
+
+.nr-no-data {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  min-height: 320px;
+  max-height: 320px;
+  text-align: center;
+}
+

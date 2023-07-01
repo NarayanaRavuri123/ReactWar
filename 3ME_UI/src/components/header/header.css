@@ -1,0 +1,163 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #fff;
+  height: 56px;
+}
+
+.appLogo {
+  display: flex;
+}
+
+.appHelp {
+  display: flex;
+  margin-top: 4px;
+}
+
+.appName {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+
+.line {
+  margin: 0 10px;
+}
+
+.help {
+  color: #4c4c4f;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 32px;
+  text-decoration: none;
+  padding: 3px 0;
+}
+
+.helpactive {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  font-weight: 700;
+  color: #1e64d0;
+  border-bottom: 3px solid #1e64d0;
+  padding-bottom: 16px;
+  padding-top: 3px;
+  padding-right: 8px;
+  margin-right: 24px;
+}
+
+.appHelp .dropArrow {
+  padding: 11px 0px 8px 8px;
+}
+
+.helptext {
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.loginactive {
+  display: flex;
+  color: #1e64d0 !important;
+  border-bottom: 3px solid #1e64d0;
+  padding-bottom: 13px;
+}
+
+.loginLabelactive {
+  display: flex;
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 8px;
+  text-align: right;
+  text-decoration: none;
+  padding: 3px 0;
+}
+
+.userstyle.userNameStyle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #323234;
+  padding: 3px 0;
+}
+
+.userstyle.userNameStyleActive {
+  color: #1e64d0;
+  padding-top: 3px;
+}
+
+.paperstyle {
+  height: auto;
+  width: 191px;
+}
+
+#menu-appbar .manageprofile {
+  background-color: #fff;
+}
+
+.manageprofile.typostyle {
+  font-family: "3MCircularTT";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.manageprofile.typoStyle2 {
+  margin-top: 16px;
+  color: #cb0000;
+}
+.manageprofile.typoStyle3 {
+  margin-top: 16px;
+}
+
+.iconStyle {
+  height: "9px" !important;
+  margin-top: "2px" !important;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .login {
+    margin-top: 1px;
+  }
+  .appLogo {
+    padding-left: 20px;
+  }
+  .appLoginLogo {
+    padding-left: 0px;
+  }
+  .appName {
+    font-size: 18px;
+    line-height: 16px;
+    width: 150px;
+  }
+
+  .appHelp .dropArrow:hover {
+    background-color: unset;
+  }
+}

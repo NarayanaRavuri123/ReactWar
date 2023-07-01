@@ -1,0 +1,101 @@
+.facility-permission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 43px;
+  width: 100%;
+}
+
+.facility-permission .facility-permission-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.facility-permission .facility-permission-description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 8px 0 0 0;
+}
+
+.facility-permission .facility-permissions {
+  display: flex;
+  flex-direction: row;
+  margin: 4px 0 0 0;
+  width: 100%;
+}
+
+.facility-permissions .facility-permissions-grid-container {
+  margin: 0;
+  width: 100%;
+}
+
+.facility-permissions-grid-container .facility-permissions-grid-item {
+  margin-top: -8px;
+  width: 100%;
+}
+
+.facility-permission .facility-permissions-checkbox-description-text {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 8px;
+  min-width: 200px;
+  width: max-content;
+}
+
+.facility-permission .facility-permissions-checkbox-description-text-active {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  margin-top: 8px;
+  min-width: 200px;
+  width: max-content;
+}
+
+.facility-permission .facility-permission-description-detail-div {
+  display: inline;
+  margin: 13px 0 16px 0;
+  width: 100%;
+}
+
+.facility-permission .facility-permission-description-detail {
+  color: #323234;
+  display: contents;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.facility-permission .facility-permission-description-detail .administration {
+  color: #000;
+  display: contents;
+  font-weight: 700;
+}
+
+.facility-permission .facility-permission-description-detail .role-privileges {
+  color: #0049bd;
+  cursor: pointer;
+  display: inline;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.facility-permission-empty-pop-up .paperRoot {
+  width: 200px;
+  height: 56px;
+}

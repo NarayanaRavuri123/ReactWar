@@ -1,0 +1,82 @@
+.prescriberFound .paperRoot {
+  max-width: 574px;
+  max-height: 260px;
+  width: 100%;
+}
+.prescriberFound .prescriber-found-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.prescriber-found-container .prescriber-found-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+}
+
+.prescriber-found-container .prescriber-result-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80px;
+  margin-top: 24px;
+}
+
+.prescriber-found-container .prescriber-details-odd {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  align-items: center;
+  padding: 11px 16px;
+  min-height: 80px;
+  background-color: #f8f8fa;
+}
+.prescriber-found-container .prescriber-select {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #0049bd;
+  cursor: pointer;
+}
+.prescriber-found-container .prescriber-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.prescriber-found-container .prescriber-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+}
+.prescriber-found-container .back-to-search {
+  text-transform: none;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.prescriber-found-container .prescriberfoundSubHeader {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  margin-right: 8px;
+}
+
+.prescriberFax {
+  margin-left: 16px;
+}
+
+.prescriber-found-name-change {
+  margin-bottom: 8px;
+}
+
+.prescriber-found-address-div {
+  margin-top: 23px;
+}

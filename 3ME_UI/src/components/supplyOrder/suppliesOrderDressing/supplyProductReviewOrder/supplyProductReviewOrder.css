@@ -1,0 +1,115 @@
+.supply-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 14px 0 0 0;
+  width: 100%;
+}
+.supply-header .supply-header-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+.supply-header .supply-header-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.table_container_review {
+  min-height: auto;
+  max-height: auto;
+  width: 560px;
+  overflow: auto;
+  border: 1px solid #e4e4e8;
+}
+
+.table_container_review .table {
+  width: 100%;
+  border-spacing: 0;
+}
+.table_container_review .table th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 8px 10px 8px 14px;
+  font-weight: bold;
+  text-align: left;
+  height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  border-right: 15px solid white;
+}
+
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.table_container_review .table td {
+  padding: 8px 8px 8px 10px;
+  height: 24px;
+}
+
+.table_container_review .table tbody tr:first-child td {
+  border-top: none;
+}
+
+.table_container_review .table tbody tr:nth-child(n) td {
+  background: #f8f8fa;
+}
+
+.table_container_review .table tbody tr:nth-child(2n) td {
+  background: #fff;
+}
+
+.table_container_review .table thead th:nth-child(1) {
+  width: 10%;
+}
+.table_container_review .table thead th:nth-child(2) {
+  width: 90%;
+}
+.table_container_review .table-static-review-data {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}
+.table_container_review .table-static-review-data-quantity {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+  padding-left: 15px;
+}
+.quantity-review {
+  margin-left: 12px;
+}
+@media print {
+  .table_container_review .table tbody tr:nth-child(n) td {
+    background: #f8f8fa !important;
+    print-color-adjust: exact;
+  }
+
+  .table_container_review .table tbody tr:nth-child(2n) td {
+    background: #fff !important;
+    print-color-adjust: exact;
+  }
+}

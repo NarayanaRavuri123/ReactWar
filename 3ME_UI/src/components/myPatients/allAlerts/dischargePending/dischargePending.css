@@ -1,0 +1,21 @@
+
+.discharge-pending-alert-detail {
+  display: flex;
+  flex-direction: column;
+  min-width: 574px;
+  min-height: 178px;
+  width: 100%;
+}
+.discharge-pending-header-title {
+  background-color: #fff0f0;
+  color: #cb0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 0;
+  margin-right: 56px;
+  padding: 8px 16px;
+  width: max-content;
+}

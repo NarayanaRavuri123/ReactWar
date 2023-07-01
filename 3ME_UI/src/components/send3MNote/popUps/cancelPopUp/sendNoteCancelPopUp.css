@@ -1,0 +1,45 @@
+.cancel-pop-up {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: center;
+  margin: 0px 16px;
+  width: 350px;
+}
+
+.cancel-pop-up .title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+
+.cancel-pop-up .description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 8px 0 24px 0;
+  text-align: center;
+}
+
+.cancel-pop-up .back-button {
+  margin: 0 0 11px 0;
+  text-transform: none;
+  width: 100%;
+}
+
+.cancel-pop-up .leave-button {
+  background-color: #cb0000;
+  margin: 0 0 11px 0;
+  text-transform: none;
+  width: 100%;
+}
+
+.cancel-pop-up .leave-button:hover {
+  background-color: #cb0000;
+}

@@ -1,0 +1,71 @@
+.reviewOrderHeader {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.saveOrderDiv .saveOrderBtn {
+  text-decoration-color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0049bd;
+  text-decoration-color: #0049bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.printOrderDiv .printOrderDivBtn {
+  text-decoration-color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0049bd;
+  text-decoration-color: #0049bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+.orderSummaryHeader {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323234;
+  margin-top: 12px;
+}
+.newOrderSaveToast {
+  position: fixed;
+  z-index: 1;
+  left: 520px;
+  top: 0;
+  margin-top: 6px;
+}
+.review-order-loading {
+  height: 300px;
+  width: 300px;
+}
+
+.review-order-loading .review-order-spinner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+}
+.reviewOrderToast {
+  position: fixed;
+  z-index: 1;
+  left: 35%;
+  top: 0;
+  max-width: 30%;
+  margin-top: 6px;
+}

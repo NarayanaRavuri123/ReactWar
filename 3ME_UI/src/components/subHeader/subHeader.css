@@ -1,0 +1,22 @@
+.mmmLogo {
+  width: 36px;
+  height: auto;
+}
+
+.lineSeparator {
+  margin: 0 10px;
+}
+
+.appName {
+  width: 73px;
+  height: auto;
+  position: relative;
+  top: 2px;
+}
+
+.help-support {
+  font-size: 14px;
+  line-height: 18px;
+  color: #4C4C4F;
+  text-decoration: none;
+}

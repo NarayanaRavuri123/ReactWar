@@ -1,0 +1,43 @@
+.success-modal {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 16px;
+  width: calc(100% - 32px);
+}
+
+.success-modal .title {
+  color: #323234;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  height: 24px;
+  width: 303px;
+}
+
+.success-modal .description {
+  color: #323234;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: calc(100% - 16px);
+}
+
+.success-modal .success-modal-grid-container {
+  width: 100%;
+}
+
+.success-modal .success-modal-input {
+  width: 100%;
+}
+
+.success-modal .return-btn {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  text-transform: none;
+  width: 100%;
+}

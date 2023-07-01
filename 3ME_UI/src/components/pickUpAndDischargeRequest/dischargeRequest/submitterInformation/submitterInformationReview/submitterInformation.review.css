@@ -1,0 +1,44 @@
+.review-submitter-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.review-submitter-info-div {
+  width: 100%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin-left: 16px;
+}
+
+.review-submitter-title .review-submitter-edit {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: -4px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+.review-submitter {
+  display: block;
+}
+
+.reviewRequest-desp .review-summary {
+  width: 559px;
+  margin-bottom: 37px;
+}
+@media only screen and (max-width: 920px) {
+  .review-submitter-info-div {
+    column-count: 1;
+    /* margin-left: 0px; */
+  }
+}

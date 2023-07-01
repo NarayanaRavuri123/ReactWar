@@ -1,0 +1,85 @@
+.image-viewer_popup {
+  width: 100%;
+}
+.image-viewer-align {
+  padding: 0px 13px 4px 0px;
+  height: 50px;
+  width: 50px;
+}
+.image-viewer {
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.wound-assessment-lable {
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-left: 17px;
+  margin-top: 11px;
+}
+.vectorleftarrow {
+  font-size: 20px;
+  height: 30px;
+  margin: 0px 5px 5px -19px;
+}
+.vectorrightarrow {
+  font-size: 20px;
+  height: 30px;
+  padding: 10px;
+  margin-right: -43px;
+}
+.styles-module_image__2hdkJ {
+  min-width: 457px !important;
+  margin-left: 10px;
+}
+.styles-module_navigation__1pqAE {
+  opacity: 1 !important;
+}
+.styles-module_close__2I1sI {
+  font-weight: normal;
+  font-family: normal;
+  opacity: 1 !important;
+  font-size: 47px;
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -37px;
+  margin-right: -28px;
+}
+
+.img-pop-up {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .image-viewer-align {
+    height: 20px;
+    width: 20px;
+    margin-left: 0px;
+    padding: 0px 6px 12px 0px;
+  }
+  .image-viewer_popup {
+    margin-left: 12px;
+    margin-top: -12px;
+    padding: 0px 0px 8px 0px;
+    width: 112px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .image-viewer_popup {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .image-viewer_popup {
+    width: 262px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .image-viewer_popup {
+    width: 262px;
+  }
+}

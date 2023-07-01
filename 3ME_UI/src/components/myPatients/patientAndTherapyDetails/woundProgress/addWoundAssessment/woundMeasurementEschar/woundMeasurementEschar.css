@@ -1,0 +1,56 @@
+.wound-eschar{
+margin-top: 38px;
+  width: 560px;
+}
+
+.woundEschar-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323234;
+}
+.wound-eschar .woundEschar-box-container{
+    margin-top: 8px;
+    width: 97%;
+}
+.wound-eschar .woundEschar-grid-container{
+    width: 106%;
+}
+.woundEschar-grid-container .woundEschar-grid-item{
+    width: 100%;
+}
+.wound-eschar .radioRoot {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .wound-eschar .optionRoot {
+    border: 1px solid #b4b4b8;
+    box-sizing: border-box;
+    height: 48px;
+    margin: 0;
+    width: calc(49% - 4px);
+  }
+  
+  .wound-eschar .optionRoot-active {
+    border: 1px solid #0049bd;
+    box-sizing: border-box;
+    height: 48px;
+    margin: 0;
+    width: calc(49% - 4px);
+  }
+  
+  .wound-eschar .optiontxt {
+    color: #4c4c4f;
+    font-family: "3MCircularTT";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .wound-eschar .optiontxtSelect {
+    color: #18181a;
+    font-family: "3MCircularTT";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }

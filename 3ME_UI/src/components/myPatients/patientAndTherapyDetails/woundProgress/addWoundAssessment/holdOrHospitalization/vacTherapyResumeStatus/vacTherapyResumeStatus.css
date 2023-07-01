@@ -1,0 +1,87 @@
+.vacResumeStatus {
+  margin-top: -30px;
+}
+
+.vacResumeStatus .vacResumeStatus-box-container {
+  margin-top: 25px;
+  width: 97%;
+}
+
+.vacResumeStatus .vacResumeStatus-grid-container {
+  width: 106%;
+}
+
+.vacResumeStatus-grid-container .vacResumeStatus-grid-item {
+  width: 100%;
+}
+
+.vacResumeStatus .vacResumeStatus-boxdate-container {
+  margin-top: 8px;
+  width: 97%;
+}
+.vacResumeStatus .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vacResumeStatus .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.vacResumeStatus .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.vacResumeStatus .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.vacResumeStatus .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.vacResumeDate input.input {
+  border-right: 0;
+}
+
+div.vacResumeDate {
+  padding-right: 0;
+}
+
+.vacResumeDate .outline {
+  border-radius: 2px;
+}
+
+.vacResumeDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.vacResumeDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}
+
+div.placeholder {
+  border-radius: 2px;
+  color: #76767a;
+}
+
+.placeholder div.placeholder {
+  border-right: unset;
+  height: 20px;
+}

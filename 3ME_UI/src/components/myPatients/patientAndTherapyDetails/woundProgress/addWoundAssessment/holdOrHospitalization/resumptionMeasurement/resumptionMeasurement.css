@@ -1,0 +1,59 @@
+.resumptionMeasurement {
+  margin-top: 16px;
+}
+
+.resumptionMeasurement .resumptionMeasurement-box-container {
+  width: 97%;
+}
+
+.resumptionMeasurement .resumptionMeasurement-grid-container {
+  width: 106%;
+}
+
+.resumptionMeasurement-grid-container .resumptionMeasurement-grid-item {
+  width: 100%;
+}
+
+.resumptionMeasurement .resumptionMeasurement-boxdate-container {
+  margin-top: 8px;
+  width: 97%;
+}
+.resumptionMeasurement .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resumptionMeasurement .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.resumptionMeasurement .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.resumptionMeasurement .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.resumptionMeasurement .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.resumptionMeasurement .dimension-box-container {
+  margin-top: 8px;
+}

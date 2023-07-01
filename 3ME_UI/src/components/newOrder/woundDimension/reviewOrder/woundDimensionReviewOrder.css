@@ -1,0 +1,75 @@
+.wound-dimensions-review-order {
+  margin: 0;
+  width: calc(100% - 8px);
+}
+
+.wound-dimensions-review-order .wound-dimensions-review-order-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 24px 0 0 0;
+  width: 100%;
+}
+
+.wound-dimensions-review-order
+  .wound-dimensions-review-order-header
+  .wound-dimensions-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.wound-dimensions-review-order
+  .wound-dimensions-review-order-header
+  .wound-dimensions-review-order-title.order-overview {
+  margin-bottom: 4px;
+}
+
+.wound-dimensions-review-order
+  .wound-dimensions-review-order-header
+  .wound-dimensions-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.wound-dimensions-review-order .wound-dimensions-review-order-grid-container {
+  width: 100%;
+}
+
+.wound-dimensions-review-order .wound-dimensions-review-order-grid-item {
+  width: 100%;
+}
+
+.wound-dimensions-review-order-grid-item
+  .wound-dimensions-review-order-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.wound-dimensions-review-order-grid-item
+  .wound-dimensions-review-order-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}

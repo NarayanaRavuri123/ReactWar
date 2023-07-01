@@ -1,0 +1,14 @@
+.confirm-placement-header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  max-width: 109px;
+  background: #fff0f0;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #cb0000;
+  margin: 0;
+}

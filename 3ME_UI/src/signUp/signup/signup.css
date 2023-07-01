@@ -1,0 +1,55 @@
+.registration-flow {
+  background-color: #f8f8fa;
+  display: flex;
+  flex-direction: column !important;
+  min-height: calc(100vh - 144px);
+}
+
+.registration-container {
+  margin: 16px !important;
+  background-color: #fff;
+}
+
+.registration-detail-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.signupHeader {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+  max-width: 368px;
+  margin: 40px 0 25px 0;
+}
+
+.sectionIcon {
+  display: flex;
+  align-items: end;
+  margin-bottom: 16px;
+}
+
+.iconTitle {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0049bd;
+  margin-left: 16px;
+}
+
+.contact {
+  max-width: 368px !important;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,242 @@
+.bluePane {
+  width: 43%;
+  background: linear-gradient(
+    221deg,
+    rgb(42, 42, 131) -3.14%,
+    rgb(0, 73, 189) 29.44%,
+    rgb(35, 179, 223) 76.3%,
+    rgb(36, 215, 255) 95.35%
+  );
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column !important;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 43%;
+}
+.introText {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  max-width: 404px;
+  min-height: 132px;
+  margin: 291px auto 306px auto;
+}
+.centerRowFlex.centerRowFlexRoot {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  max-width: 296px;
+}
+.titleText {
+  display: flex;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37.5px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+.links {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(30, 100, 208);
+  margin-right: 22px;
+  text-decoration-color: rgb(30, 100, 208);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.centerRowFlex .helpline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 14px;
+  margin-bottom: 18px;
+  max-width: 385px;
+  text-align: center;
+  padding: 0 16px;
+}
+.centerRowFlex .signup {
+  line-height: 20px;
+  margin-right: 8px !important;
+  max-width: 385px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.left-container.left-container-root {
+  background: linear-gradient(
+    221deg,
+    #2a2a83 -3.14%,
+    #0049bd 29.44%,
+    #23b3df 76.3%,
+    #24d7ff 95.35%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-right: 20px;
+  width: 360px;
+}
+
+.loginPage.loginPageRoot {
+  display: flex;
+  width: 100%;
+}
+
+.login-loader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-container .sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: auto;
+}
+.left-container .welcome {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  max-width: 296px;
+  min-height: 48px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  margin-right: 54%;
+}
+
+.left-container .sign-in .login-ui {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.links-grid.links-grid-root {
+  margin-bottom: 18px;
+}
+.centerRowFlex.sign-up {
+  padding-bottom: 16px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.loginPage .right-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 25px;
+  margin-bottom: 4px;
+  padding: 24px 20px 0px 24px;
+  max-width: none;
+  width: calc(100% - 380px);
+}
+.right-container .features {
+  width: 48%;
+  min-height: 319.02px;
+  border: 1px solid #0049bd;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 16px 16px 24px;
+}
+
+.right-container .features-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.features .feature-label {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0049bd;
+  width: fit-content;
+}
+.features .feature-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 8px;
+}
+.right-container .welcome-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  color: #323234;
+  margin-bottom: 24px;
+}
+.right-container .my-carousel {
+}
+
+.bannerStyle {
+  width: 100%;
+  cursor: pointer;
+}
+
+.product-loader-dialog .paperRoot {
+  width: 400px;
+  height: 200px;
+}
+/* mobile css */
+@media only screen and (max-width: 750px) {
+  .left-container.left-container-root {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .centerRowFlex {
+    margin: 0;
+  }
+  .loginPage.loginPageRoot {
+    min-height: calc(100vh - 165px);
+  }
+  .helpline {
+    text-align: center;
+  }
+  .loginPage .right-container {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .left-container .welcome {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-right: 78%;
+  }
+  .right-container .welcome-header {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 926px) {
+  .right-container .features {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .right-container .features-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

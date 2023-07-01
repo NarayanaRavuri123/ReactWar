@@ -1,0 +1,184 @@
+.submit-prescription {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.submit-prescription .submit-prescription-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.submit-prescription-header .submit-prescription-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.submit-prescription-header .submit-prescription-subTitle-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Mui-error + div .submit-prescription-subTitle {
+  color: #d32f2f;
+}
+
+.submit-prescription-subTitle-div .submit-prescription-subTitle {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.submit-prescription-subTitle-div .submit-prescription-subTitle-error {
+  color: #d32f2f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.submit-prescription-subTitle-div .submit-prescription-subTitle-astrick {
+  color: #d32f2f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+}
+
+.submit-prescription-header .submit-prescription-description {
+  color: #4c4c4f;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.submit-prescription-header .button-print-rx {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  height: 32px;
+  line-height: 18px;
+  min-height: 40px;
+  min-width: 120px;
+  text-transform: capitalize;
+  width: 10%;
+}
+
+.submit-prescription .submit-prescription-grid-container {
+  width: 100%;
+}
+
+.submit-prescription-grid-container .submit-prescription-grid-item {
+  width: 100%;
+}
+
+.submit-prescription-div {
+  height: fit-content;
+}
+
+.prescriberNoErrorinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  padding: 8px;
+  width: calc(100% - 16px);
+}
+
+.prescriberErrorinfo {
+  border: 1px solid #cb0000;
+  display: flex;
+  margin-left: 32px;
+  margin-top: -8px;
+  padding: 8px;
+}
+
+.prescriberInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 27px;
+  padding: 8px;
+  border: 1px solid #94949a;
+  margin-top: -16px;
+}
+
+.prescriberDivErrorinfo {
+  border: 1px solid #cb0000;
+  margin-left: 27px;
+}
+
+.prescriberErrorDesc {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.prescriberErrorDescLabel {
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  max-width: 294px;
+}
+
+.prescriberInfoLabel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+
+.prescriberInfoDesc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+
+.prescriberInfoDiv {
+  margin-top: 8px;
+}
+
+.prescriberInfo .prescriberNameGrid {
+  margin-left: 8px;
+}
+
+.prescriber-info-Selected-PresBtn .prescriber-info-email-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  float: right;
+}

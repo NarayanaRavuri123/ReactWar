@@ -1,0 +1,41 @@
+.confirmationPopup {
+  width: 375px;
+  min-height: 202px;
+}
+.confirmationPopupContent {
+  padding: 16px 16px 8px;
+}
+.confirmationPopupTitle {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #323234;
+}
+.confirmationPopupNoBtn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px 0px;
+}
+.confirmationPopupYesBtn {
+  margin-top: 10px;
+  width: 100%;
+}
+.confirmationPopupOptBtnNo {
+  width: 100%;
+}
+.confirmationPopup .confirmationPopupYesBtn {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.confirmationPopup .confirmationPopupYesBtn:hover {
+  width: 100%;
+  background-color: #cb0000;
+  color: white;
+  text-transform: none;
+}
+.confirmationPopupYesBtn {
+  background-color: #cb0000;
+  color: white;
+}

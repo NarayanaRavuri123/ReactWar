@@ -1,0 +1,55 @@
+.email-sent-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.email-sent-container .email-sent-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-div {
+  justify-content: center;
+  width: 32%;
+  margin: 0 auto;
+}
+
+.text-div .email-sent-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.text-div .email-sent-description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.text-div .sign-in-button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 926px) {
+  .text-div {
+    width: 50%;
+  }
+  .forgot-username-button {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-div {
+    width: 90% !important;
+  }
+}

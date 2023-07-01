@@ -1,0 +1,163 @@
+.change-address-component {
+  margin-bottom: 40px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.change-address-component .short-form {
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+}
+
+.short-form .address-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.address-div .sub-address-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.address-info-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+  margin-top: 40px;
+}
+
+.short-form .address-type {
+  width: 100%;
+  margin-top: 38px;
+}
+
+.address-type .address-to-change {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.address-info-grid-container {
+  width: 100%;
+}
+
+.address-info-grid-container .address-info-grid-item {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.change-address-component .short-form .address-info-input-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+.address-info-grid-item .address-info-input {
+  width: 100%;
+}
+
+.short-form .address-info-address-input .address-info-address-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.short-form div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.short-form .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.short-form .change-address-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.sub-address-div .change-address-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}
+
+.address-type .address-info-input-label {
+  color: #323234;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+.address-type .radioRoot {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address-type .radio-button-icon {
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.address-type .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 4px 0;
+  width: calc(50% - 8px);
+}
+
+.address-type .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 4px 0;
+  width: calc(50% - 8px);
+}
+
+.address-type .optiontxt {
+  color: #4c4c4f;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.address-type .optiontxtSelect {
+  color: #18181a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.address-info-input .showCommentError {
+  border: 1px solid #d32f2f !important;
+}
+
+.noCommentError {
+  border: none;
+}

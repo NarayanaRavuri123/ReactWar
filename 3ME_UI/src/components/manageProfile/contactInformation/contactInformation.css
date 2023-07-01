@@ -1,0 +1,88 @@
+.contact-information {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.contact-information .contact-information-component {
+  width: 100%;
+}
+
+.contact-information .radio-title-label {
+  margin-top: 0px;
+}
+
+.contact-information .contact-information-input {
+  width: 100%;
+}
+
+.contact-information .radioRoot {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contact-information .optionRoot-mobile {
+  width: 87px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+.contact-information .optionRoot-landline {
+  width: 97px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+.contact-information .optiontxt {
+  color: #18181a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.contact-information .MuiRadio-root {
+  padding-left: 0px;
+}
+
+.contact-information .phone-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+.contact-information .phone-type-container .radio-group {
+  width: 100%;
+  display: flex;
+}
+
+.contact-information .phone-type-container .extension {
+  max-width: 80px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.contact-information .contact-information-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 8px 0;
+}
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .contact-information .contact-information-component {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-information .contact-information-header {
+    padding-left: 8px;
+  }
+}

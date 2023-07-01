@@ -1,0 +1,88 @@
+.homecareproviderFound .paperRoot {
+  max-width: 574px;
+  max-height: 260px;
+  width: 100%;
+}
+
+.homecareproviderFound .home-care-provider-found-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.home-care-provider-found-container .home-care-provider-found-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.home-care-provider-found-container .home-care-provider-result-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80px;
+  margin-top: 24px;
+}
+
+.home-care-provider-found-container .home-care-provider-details-odd {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  align-items: center;
+  padding: 11px 16px;
+  min-height: 80px;
+  background-color: #f8f8fa;
+}
+
+.home-care-provider-found-container .home-care-provider-select {
+  color: #0049bd;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
+
+.home-care-provider-found-container .home-care-provider-details-main {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.home-care-provider-found-container .home-care-provider-details-main.name {
+  margin-bottom: 4px;
+}
+
+.home-care-provider-found-container .home-care-provider-details-secondary {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.home-care-provider-found-container
+  .home-care-provider-details-secondary.title {
+  color: #76767a;
+  text-align: left;
+}
+
+.home-care-provider-found-container
+  .home-care-provider-details-secondary.value {
+  color: #323234;
+  text-align: right;
+}
+
+.home-care-provider-found-container .back-to-search {
+  text-transform: none;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.second-column {
+  margin-top: 23px;
+}

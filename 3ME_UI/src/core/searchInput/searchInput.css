@@ -1,0 +1,125 @@
+div.search-input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.search-input-container .search-input {
+  display: flex;
+  max-width: 568px;
+}
+.search-input-container .search-btn {
+  width: 100%;
+  max-width: 147px;
+}
+.search-input-container .search-results-container {
+  max-height: 120px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #ccccd0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  position: absolute;
+  max-width: 568px;
+  width: 100%;
+  z-index: 55;
+  top: 40px;
+}
+.search-input-container .search-select-container {
+  max-width: 568px;
+  min-height: 18px;
+  display: flex;
+  padding: 4px 16px;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #ccccd0;
+  border-radius: 2px;
+  flex-direction: column;
+  margin: 8px 0;
+}
+.search-results-container .so-search-results {
+  max-width: 568px;
+  min-height: 18px;
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  cursor: pointer;
+}
+.search-select-container .select-results {
+  width: 100%;
+  min-height: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.so-search-results .so-search-val {
+  width: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.so-search-results .so-search-name-val {
+  width: 50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+
+.so-search-results .share-order-noresult {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #cb0000;
+  cursor: default;
+  margin-right: 8px;
+}
+.search-select-container .select-val {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4c4c4f;
+}
+.search-select-container .select-val-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.search-input-container .selected-opt-label {
+  margin-top: 8px;
+}
+.search-input-container .so-search-nores {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  cursor: default;
+  margin-right: 16px;
+}
+.so-search-newmail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.so-search-newmail .shareOrder-noResult-addOrRemove-button {
+  color: #0049bd;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: none;
+}

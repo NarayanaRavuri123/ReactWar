@@ -1,0 +1,38 @@
+  .admissionscheduleinfo {
+    width: 100%;
+    margin-top: 2%;
+    font-weight: 400;
+  }
+  .admissionscheduleinfo .radioRoot {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1%;
+  }
+  .admissionscheduleinfo .optionRoot {
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0;
+    width: calc(62% - 4px);
+  }
+  .admissionscheduleinfo .optionRoot-active {
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0;
+    width: calc(62% - 4px);
+  }
+  .admissionscheduleinfo .optiontxt {
+    color: #4c4c4f;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .admissionscheduleinfo .optiontxtSelect {
+    color: 76767a;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+   

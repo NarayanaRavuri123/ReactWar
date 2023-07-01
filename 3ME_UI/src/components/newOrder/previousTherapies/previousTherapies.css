@@ -1,0 +1,109 @@
+.woundinfo-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323234;
+}
+
+.woundinfo-title-error {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: red;
+}
+
+.woundinfo-desp {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #323234;
+}
+
+.woundinfo-desp-error {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CB0000;
+}
+
+.woundinfo-out {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #323234;
+}
+
+.woundinfo-out-error {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CB0000;
+}
+
+.previousTherapy-data {
+    margin-top: 10px;
+    width: 100%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+}
+
+.previousTherapy-cause {
+    margin-top: 18px;
+}
+
+.previousTherapiesCheckbox {
+    margin-right: 10px;
+}
+
+.previousTherapiesCheckbox .previousTherapiesCheckboxRoot {
+    margin-right: 10px;
+}
+
+.chkBoxDescriptionText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #656569;
+    max-width: max-content;
+    margin-top: 10px;
+}
+
+.chkBoxDescriptionText-active {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #323234;
+    max-width: max-content;
+    margin-top: 10px;
+}
+
+.requiredStar {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CB0000;
+    margin-left: 1.5px;
+}
+
+.previousTherapy-other-input {
+    width: 100%;
+    margin: -30px;
+    margin-left: 9px;
+}
+
+.previousTherapy-otherCause-input {
+    width: 50%;
+    margin: -30px;
+    margin-left: 9px;
+}

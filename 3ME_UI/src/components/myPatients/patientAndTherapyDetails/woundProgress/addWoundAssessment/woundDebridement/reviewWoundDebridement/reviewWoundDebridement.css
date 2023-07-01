@@ -1,0 +1,35 @@
+.review-debridement .review-debridement-title {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+}
+.review-debridement .review-debridement-titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.review-debridement .review-debridement-edit .review-debridement-edit-button {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  top: 20px;
+  position: relative;
+  margin-left: 5px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.review-debridement-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-debridement-row.order-overview {
+  flex-direction: column;
+}

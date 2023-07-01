@@ -1,0 +1,24 @@
+.link-to-navigator {
+    text-decoration: none;
+    color: #0049bd;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+
+  .arrow-right {
+    transform: rotate(-90deg);
+    height: 16px;
+    width: auto;
+    position: relative;
+    top: 3px;
+    margin: 0 12px;
+  }
+
+  .title-txt {
+    color: #94949a;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  

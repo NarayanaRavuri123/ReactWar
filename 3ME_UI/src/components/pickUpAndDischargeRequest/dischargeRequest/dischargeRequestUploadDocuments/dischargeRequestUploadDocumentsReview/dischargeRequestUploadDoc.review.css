@@ -1,0 +1,60 @@
+.document-upload {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-bottom: 7px;
+  margin-left: 22px;
+}
+.review-dicharge-request.document-upload.upload-doc {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 1px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+  display: flex;
+}
+.document-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323234;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 32px;
+}
+.document-info-div {
+  width: 100%;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  margin-left: 35px;
+}
+.document-title .edit-doc {
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  top: 1px;
+  position: relative;
+  margin-left: 4px;
+  text-decoration-line: underline;
+  text-transform: none;
+  cursor: pointer;
+}
+.document-info-div .listDocs {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 4.1px 0 0 0px;
+  width: 544px;
+  margin-bottom: 5px;
+}

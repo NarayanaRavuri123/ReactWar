@@ -1,0 +1,142 @@
+.delivery-information {
+  margin-top: 40px;
+  width: 100%;
+}
+.delivery-info-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.deliveryInfopopper .deliveryInfotooltip {
+  background-color: #fff;
+  color: #000;
+  padding: 14px 32px 16px 16px;
+  font-size: 14px;
+  border: 1px solid #808084;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+.delivery-information .delivery-information-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.delivery-information .delivery-information-box-container {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.delivery-information .delivery-information-grid-container {
+  width: 100%;
+}
+
+.delivery-information-grid-container .delivery-information-grid-item {
+  width: 100%;
+}
+
+.delivery-information-grid-item .delivery-information-input {
+  width: 100%;
+}
+
+.deliveryProductNeedByDate input.input {
+  border-right: 0;
+}
+
+div.deliveryProductNeedByDate {
+  padding-right: 0;
+}
+
+.deliveryProductNeedByDate .outline {
+  border-radius: 2px;
+}
+
+.deliveryProductNeedByDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.deliveryProductNeedByDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}
+
+div.placeholder {
+  border-radius: 2px;
+  color: #76767a;
+}
+
+.placeholder div.placeholder {
+  border-right: unset;
+  height: 20px;
+}
+
+.delivery-information .delivery-information-input .delivery-information-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.delivery-information div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.delivery-information .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.delivery-information .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.delivery-information .facilityDetail .facilitywrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: fff;
+  border: 1px solid #e4e4e8;
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px 15px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.delivery-information .facilityDetail .facility-detail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.delivery-information .facilitytitle {
+  color: #808084;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 11px;
+  text-transform: capitalize;
+}
+
+.delivery-information .facilityvalue {
+  color: #323234;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.delivery-information .facilityDetail {
+  margin-top: 8px;
+  width: 100%;
+}

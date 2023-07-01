@@ -1,0 +1,62 @@
+.printCommonDocs {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.printCommonDocs .printCommonDocs-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.printCommonDocs .printCommonDocs-grid-container {
+  width: 100%;
+}
+
+.printCommonDocs .printCommonDocs-input .printCommonDocs-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.printCommonDocs div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+
+.printCommonDocs .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+
+.printCommonDocs .placeHolder .selectIcon {
+  top: 10px;
+}
+
+.printCommonDocs-grid-container .printCommonDocs-input {
+  width: 100%;
+}
+
+.printCommonDocs .button-printCommonDocs {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0049bd;
+  border-radius: 2px;
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  height: 40.125px;
+  line-height: 18px;
+  text-transform: capitalize;
+  width: 100%;
+}

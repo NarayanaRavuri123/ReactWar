@@ -1,0 +1,13 @@
+.radio-question-root {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.radio-question-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4c4c4f;
+}

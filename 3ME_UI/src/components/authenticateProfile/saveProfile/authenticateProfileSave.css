@@ -1,0 +1,56 @@
+.profile-save {
+    padding: 16px 16px 20px 16px;
+}
+
+.profile-save .header {
+    font-size: 20px;
+    line-height: 24px;
+    color: #323234;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.profile-save .sub-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #76767A;
+    margin-bottom: 16px;
+}
+
+.profile-save .resendCode {
+    width: 100%;
+    text-transform: none;
+}
+
+.profile-save .verify-code-empty {
+    width: 100%;
+    margin-top: 18px;
+    pointer-events: none;
+    color: #76767A;
+    background: #E4E4E8;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.profile-save .verify-code {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.lable {
+    color: #94949A;
+}
+
+.codeValidateError {
+    color: red;
+    font-size: 12px;
+}
+
+.authentication-loader{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 212px;
+}

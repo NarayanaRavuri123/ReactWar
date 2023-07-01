@@ -1,0 +1,57 @@
+.placeAnOrder-main-component {
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 16px;
+  width: 691px;
+}
+.placeAnOrder-text-section .placeAnOrder-header {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 24px 10px 0px;
+}
+.placeAnOrder-select-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+.placeAnOrder-facility-details-section {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.placeAnOrder-addPatientbutton {
+  margin-top: 11px;
+}
+.placeAnOrder-main-component
+  .placeAnOrder-text-section
+  .placeAnOrder-container {
+  align-items: center;
+  padding: 15px 24px;
+  width: 100%;
+}
+.placeAnOrder-search-input {
+  color: #76767a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+}
+.placeAnOrder-grid-item-add-patient {
+  align-items: flex-start;
+  width: 100%;
+}

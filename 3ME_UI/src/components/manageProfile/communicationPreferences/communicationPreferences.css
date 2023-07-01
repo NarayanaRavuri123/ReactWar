@@ -1,0 +1,32 @@
+.comm-pref-main-container .comm-pref-main-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.comm-pref-main-container .comm-pref-main-item .comm-pref-header {
+  height: 22px;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+.keep-updated-div {
+  margin-top: 18px;
+  font-size: 12px;
+  font-style: normal;
+  color: #1e64d0;
+  line-height: 16px;
+  font-weight: 700;
+}
+.keep-updated-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #18181a;
+  max-width: max-content;
+  margin-left: 4px;
+  padding-top: 10px;
+}

@@ -1,0 +1,13 @@
+.supplies-delivered-header-title {
+  background-color: #e3f7e8;
+  color: #007713;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 0;
+  margin-right: 56px;
+  padding: 8px 16px;
+  width: max-content;
+}

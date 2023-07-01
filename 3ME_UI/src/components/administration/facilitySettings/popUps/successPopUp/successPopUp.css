@@ -1,0 +1,34 @@
+.facility-settings-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 16px;
+}
+
+.facility-settings-success .title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 8px 0;
+}
+
+.facility-settings-success .description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 16px 0 32px 0;
+}
+
+.facility-settings-success .description .success-text {
+  font-weight: 700;
+}
+
+.facility-settings-success .back-button {
+  margin: 0px;
+  text-transform: none;
+  width: 100%;
+}

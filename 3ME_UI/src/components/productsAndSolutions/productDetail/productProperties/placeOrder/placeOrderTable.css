@@ -1,0 +1,78 @@
+.placeAnOrder_table_container {
+  max-height: 500px;
+  min-height: 100px;
+  overflow: auto;
+  border: 1px solid #e4e4e8;
+  margin: 16px 23px 10px 2px;
+}
+.placeAnOrder_table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.placeAnOrder_table th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 8px 10px;
+  font-weight: bold;
+  text-align: left;
+  height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  border-right: 15px solid white;
+}
+
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.placeAnOrder_table td {
+  padding: 8px 8px 8px 10px;
+  height: 24px;
+}
+
+.placeAnOrder_table tbody tr:first-child td {
+  border-top: none;
+}
+
+.placeAnOrder_table tbody tr:nth-child(n) td {
+  background: #f8f8fa;
+}
+
+.placeAnOrder_table tbody tr:nth-child(2n) td {
+  background: #fff;
+}
+
+.placeAnOrder_table thead th:nth-child(1) {
+  width: 25%;
+}
+
+.placeAnOrder_table thead th:nth-child(2) {
+  width: 25%;
+}
+
+.placeAnOrder_table thead th:nth-child(3) {
+  width: 50%;
+}
+
+.placeAnOrder_table th.up {
+  background-image: url("../../../../../assets/up_arrow.svg");
+}
+
+.placeAnOrder_table th.down {
+  background-image: url("../../../../../assets/down_arrow.svg");
+}
+
+.placeAnOrder_table th.default {
+  background-image: url("../../../../../assets/default.svg");
+}
+.img {
+  background-color: white;
+}

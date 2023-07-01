@@ -1,0 +1,53 @@
+.emergencyContactInfo {
+  margin: 37px 0 40px 0;
+  width: 100%;
+}
+
+.emergencyContactInfo-review-order {
+  margin: 24px 0 0 0;
+  width: 100%;
+}
+
+.emergencyContactInfo .emergencyContactInfo-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.emergencyContactInfo-box-container {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.emergencyContactInfo-box-container .emergencyContactInfo-grid-container {
+  width: 100%;
+}
+
+.emergencyContactInfo-grid-container .grid-item-width {
+  width: 100%;
+}
+
+.emergencyContactInfo-grid-container .emergencyContactInfo-input {
+  width: 100%;
+}
+
+.emergencyContactPhoneNumber {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #94949a;
+  font-size: 14px;
+  padding: 11.15px 12px;
+}
+
+.emergencyContactPhoneNumber:focus {
+  outline: none;
+}
+
+.Mui-error + div .emergencyContactPhoneNumber {
+  border-color: #d32f2f;
+}

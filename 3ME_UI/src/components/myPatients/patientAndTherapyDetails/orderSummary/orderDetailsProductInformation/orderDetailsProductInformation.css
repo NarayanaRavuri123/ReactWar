@@ -1,0 +1,123 @@
+.orderoverview-prod-info {
+  width: calc(100% - 8px);
+}
+
+.orderoverview-prod-info .product-information-component-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 17px 0 0 0;
+  width: 100%;
+}
+
+.orderoverview-prod-info
+  .product-information-component-title
+  .orderoverview-prod-info-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.orderoverview-prod-info
+  .product-information-component-title
+  .orderoverview-prod-info-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.orderoverview-prod-info .all-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.orderoverview-prod-info .content-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.orderoverview-prod-info .content-div-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.content-div-last .sub-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+}
+.content-div-last .sub-content-div-product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sub-content-div .orderoverview-prod-info-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.sub-content-div .orderoverview-prod-info-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}
+.sub-content-div-product .orderoverview-prod-info-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.sub-content-div-product .orderoverview-prod-info-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.grid-conatiner .grid-item {
+  width: 100%;
+  height: fit-content;
+}

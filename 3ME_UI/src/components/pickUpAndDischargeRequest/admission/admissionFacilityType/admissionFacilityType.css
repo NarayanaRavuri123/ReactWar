@@ -1,0 +1,30 @@
+  .facilityinfo {
+    width: 100%;
+    margin-top: 2%;
+    font-weight: 400;
+  }
+  .facilityinfo
+    .facilitytypeadmit
+    .facilitytypeadmit-input
+    .facilitytypeadmit-select {
+    height: 12px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+    font-size: 14px;
+  
+    border-radius: 2px;
+  }
+  .facilityinfo .facilitytyname {
+    width: 100%;
+    margin-left: 1.5%;
+  }
+  .facilityinfo .facilitytyname .facilityname-input {
+    background: #ffffff;
+    width: 79%;
+    font-size: 14px;
+  }
+   

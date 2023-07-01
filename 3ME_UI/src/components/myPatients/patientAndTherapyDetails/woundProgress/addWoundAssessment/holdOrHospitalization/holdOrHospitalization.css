@@ -1,0 +1,120 @@
+.holdOrHospitalization {
+  margin-top: 38px;
+  width: 560px;
+}
+.holdOrHospitalization-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+.holdOrHospitalization .holdOrHospitalization-box-container {
+  margin-top: 8px;
+  width: 97%;
+}
+
+.holdOrHospitalization .holdOrHospitalizationdata-box-container {
+  margin-top: 25px;
+  width: 97%;
+}
+
+.holdOrHospitalization .holdOrHospitalization-grid-container {
+  width: 106%;
+}
+
+.holdOrHospitalization-grid-container .holdOrHospitalization-grid-item {
+  width: 100%;
+}
+
+.holdOrHospitalization .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.holdOrHospitalization .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.holdOrHospitalization .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.holdOrHospitalization .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.holdOrHospitalization .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.holdOrHospitalization .holdOrHospitalization-box-container {
+  margin-top: 8px;
+  width: 97%;
+}
+
+.holdOrHospitalization .holdOrHospitalization-grid-container {
+  width: 106%;
+}
+
+.holdOrHospitalization-grid-container .holdOrHospitalization-grid-item {
+  width: 100%;
+}
+
+.vacHoldStartDate input.input {
+  border-right: 0;
+}
+
+div.vacHoldStartDate {
+  padding-right: 0;
+}
+
+.vacHoldStartDate .outline {
+  border-radius: 2px;
+}
+
+.vacHoldStartDate.showError .outline {
+  border: 1px solid #d32f2f;
+}
+
+.vacHoldStartDate.noError.Mui-error .outline {
+  border: 1px solid #94949a;
+}
+
+div.placeholder {
+  border-radius: 2px;
+  color: #76767a;
+}
+
+.placeholder div.placeholder {
+  border-right: unset;
+  height: 20px;
+}
+div.selectRootHoldReason {
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+
+.selectRootHoldReason div.selectHoldReason {
+  border-right: unset;
+  height: 20px;
+}
+
+.selectRootHoldReason .selectIcon {
+  top: 10px;
+}

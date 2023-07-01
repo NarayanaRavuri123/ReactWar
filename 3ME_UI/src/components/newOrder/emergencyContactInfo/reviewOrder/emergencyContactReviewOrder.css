@@ -1,0 +1,99 @@
+.emergency-contact-review-order {
+  margin: 0;
+  width: calc(100% - 8px);
+}
+
+.emergency-contact-review-order .emergency-contact-component-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 24px 0 0 0;
+  width: 100%;
+}
+
+.emergency-contact-review-order
+  .emergency-contact-component-title
+  .emergency-contact-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.emergency-contact-review-order
+  .emergency-contact-component-title
+  .emergency-contact-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.emergency-contact-review-order .emergency-contact-review-order-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  min-height: 20px;
+}
+
+.emergency-contact-review-order .emergency-contact-review-order-edit-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  min-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: none;
+}
+
+.emergency-contact-review-order .content-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.emergency-contact-review-order .sub-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.sub-content-div .emergency-contact-review-order-content-title {
+  color: #808084;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.sub-content-div .emergency-contact-review-order-content-value {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  min-height: 18px;
+}

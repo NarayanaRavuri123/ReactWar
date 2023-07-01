@@ -1,0 +1,100 @@
+.woundMeasure {
+  margin-top: 32px;
+  width: 560px;
+}
+.woundMeasure-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+}
+.woundMeasure .woundMeasure-box-container {
+  margin-top: 8px;
+  width: 97%;
+}
+
+.woundMeasure .woundMeasuredata-box-container {
+  margin-top: 25px;
+  width: 97%;
+}
+
+.woundMeasure .woundMeasure-grid-container {
+  width: 106%;
+}
+
+.woundMeasure-grid-container .woundMeasure-grid-item {
+  width: 100%;
+}
+
+.woundMeasure .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.woundMeasure .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.woundMeasure .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 0;
+  width: calc(49% - 4px);
+}
+
+.woundMeasure .optiontxt {
+  color: #4c4c4f;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.woundMeasure .optiontxtSelect {
+  color: #18181a;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.woundMeasure .dimension-box-container {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.woundMeasure .dimension-grid-container {
+  width: 100%;
+}
+
+.dimension-grid-container .dimension-grid-item {
+  width: 100%;
+}
+
+.depth-input {
+  width: 100%;
+}
+.woundMeasuredata-box {
+  margin-top: 12px;
+  display: flex;
+  gap: 120px;
+}
+.woundMeasuredata-header {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+}
+.woundMeasuredata-value {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #323234;
+}
+.woundMeasuredata-dateRange {
+  margin-top: 8px;
+}

@@ -1,0 +1,258 @@
+.current-therapy-form {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.current-therapy-form .space-bottom {
+  height: 20px;
+}
+.current-therapy-info {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+}
+.current-therapy-info .current-therapy-info-header {
+  margin-left: 20px;
+  margin-top: 16px;
+  width: 100%;
+}
+.current-therapy-info-header .current-therapy-info-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+}
+.order-current-therapy-detail-component {
+  background: #ffffff;
+  border: 1px solid #e4e4e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-top: 6px;
+}
+
+.order-current-therapy-detail-component
+  .order-current-therapy-detail-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  padding: 0;
+  width: 100%;
+}
+
+.order-current-therapy-detail-container .current-therapy-icon-div {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-right: 13px;
+  margin-top: 23px;
+}
+.current-therapy-icon-div .icon {
+  margin: auto;
+}
+.order-current-therapy-detail-container .current-therapy-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100% - 76px);
+}
+.current-therapy-details .order-current-therapy-label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #323234;
+  margin: 0;
+}
+.current-therapy-details .order-current-therapy-detail-label {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #323234;
+  margin: 0;
+}
+.current-therapy-details .order-supply-detail-createdOn-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #76767a;
+  margin: 0;
+}
+
+.order-current-therapy-detail-container
+  .order-current-therapy-navigate-icon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 36px;
+  height: 100%;
+}
+.order-current-therapy-navigate-icon-div .navigate-icon {
+  /* margin: auto; */
+  cursor: pointer;
+  margin-right: 0;
+  margin-left: -23px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.order-current-therapy-status-section {
+  display: flex;
+  flex-direction: row;
+}
+.order-current-therapy-status-section .order-current-therapy-status-label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: #323234;
+  margin: 0;
+}
+.order-current-therapy-status-section
+  .order-current-therapy-status-label-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #323234;
+  margin: 0;
+}
+.oval-current-therapy {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  margin: 7px 4px 4px 12px;
+  background-color: green;
+}
+.order-supplies-empty-pop-up .paperRoot {
+  width: 200px;
+  height: 56px;
+}
+.order-current-therapy-detail-component .alert-banner {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.current-therapy-form .order-supplies-info {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  /* width: 100%; */
+}
+.order-supplies-info .order-supplies-info-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 16px;
+  width: 130px;
+}
+.order-supplies-info-header .order-supplies-info-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0;
+  color: #323234;
+}
+.order-supplies-info .order-supplies-info-button {
+  /* margin-right: 74%; */
+  margin-top: 14px;
+}
+.order-supplies-info-button .order-supplies-button {
+  padding: 8px 12px;
+  width: auto;
+  background: #0049bd;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.order-supplies-info-button .order-supplies-button:hover {
+  background: #0049bd;
+  color: #ffffff;
+}
+.order-current-therapy-detail-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.order-current-therapy-detail-container .order-supplies-detail {
+  border: 1px solid #e4e4e8;
+  margin-top: 8px;
+  margin-left: 16px;
+}
+.order-supplies-detail-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.order-supplies-not-present {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.order-supplies-not-present .order-supplies-not-present-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0;
+  color: #76767a;
+}
+.SupplyOrderdivMain {
+  max-height: 450px;
+  overflow: auto;
+  overflow-y: auto;
+}
+@media (max-width: 767px) {
+  .alertText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertHeading,
+  .alertReasonParentClass,
+  .alertBannerButton {
+    margin: 0px 15px;
+    height: 45px;
+  }
+  .order-current-therapy-detail-component {
+    padding-bottom: 10px;
+  }
+  .ProofofDeliveryNeeded {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .alertText {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .alertReasonParentClass .ProofofDeliveryNeeded {
+    margin-left: 15px;
+  }
+  .alertText .alertHeading {
+    margin: 8px 15px;
+    width: calc(100% - 30px);
+    height: fit-content;
+  }
+  .alertText .alertHeading .alertReasonParentClass {
+    height: fit-content;
+    margin: 0px;
+    width: 100%;
+  }
+}

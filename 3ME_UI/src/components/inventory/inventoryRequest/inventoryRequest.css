@@ -1,0 +1,170 @@
+.inventory-request-component {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 104px 101px 16px;
+  width: calc(100% - 120px);
+}
+
+.inventory-request-component .short-form {
+  height: 100%;
+  margin: 0px 40px;
+  width: calc(62.78% - 40px);
+}
+
+.short-form .inventory-adjustment-route-section {
+  margin: 42px 0px;
+}
+
+.short-form .inventory-request-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+
+.inventory-request-header .inventory-request-header-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.inventory-request-header .inventory-request-header-description-1 {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 8px 0px;
+}
+
+.inventory-request-header .inventory-request-header-description-2 {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+}
+
+.inventory-request-header .inventory-request-header-description-2 .phone-value {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.inventory-request-header .inventory-request-header-description-2 .email-value {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.short-form .inventory-request-type {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0 0 0;
+  width: 100%;
+}
+
+.inventory-request-grid-container {
+  width: 100%;
+}
+
+.inventory-request-grid-container .inventory-request-grid-item {
+  width: 100%;
+}
+
+.inventory-request-add-quantity {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  width: 110px;
+}
+
+.inventory-request-add-quantity .inventory-request-quantity-div {
+  display: flex;
+  flex-direction: column;
+  margin: -20px 0 0 0;
+  width: 100%;
+}
+
+.inventory-request-type .radioRoot {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inventory-request-type .optionRoot {
+  border: 1px solid #b4b4b8;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 4px 0px;
+  width: calc(100% - 4px);
+}
+
+.inventory-request-type .optionRoot-active {
+  border: 1px solid #0049bd;
+  box-sizing: border-box;
+  height: 48px;
+  margin: 4px 0px;
+  width: calc(100% - 4px);
+}
+
+.inventory-request-type .optiontxt {
+  color: #4c4c4f;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.inventory-request-type .optiontxtSelect {
+  color: #18181a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.inventory-requester-information {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0px;
+  width: 100%;
+}
+
+.inventory-requester-information .inventory-requester-information-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 24px 0 0 0;
+}
+
+.inventory-requester-information .inventory-requester-information-description {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 8px 0;
+}
+
+.inventory-request-grid-item .inventory-requester-information-input {
+  width: 100%;
+}
+
+.inventory-request-success-pop-up {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

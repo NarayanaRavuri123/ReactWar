@@ -1,0 +1,51 @@
+.currentMainGrid {
+  display: flex;
+  flex-direction: row;
+}
+.currentSuppliesLabel {
+  position: relative;
+  top: 25px;
+  font-family: "3MCircularTT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.currentSuppliesTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323234;
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+.changeFrequencyDropdown {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.changeFrequencyDropdown .changeFrequency-input .changeFrequency-select {
+  height: 12px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  width: 100%;
+}
+.changeFrequencyDropdown .changeFrequency-input {
+  width: 100%;
+}
+.changeFrequencyDropdown div.placeHolder {
+  border-radius: 2px;
+  color: #76767a;
+  width: 100%;
+}
+.changeFrequencyDropdown .placeHolder div.placeHolder {
+  border-right: unset;
+  height: 20px;
+  width: 100%;
+}
+.changeFrequencyDropdown .placeHolder .selectIcon {
+  top: 10px;
+}

@@ -1,0 +1,78 @@
+.closeIcon {
+  margin-top: 2px;
+}
+
+.saveOrderConfirmPopup {
+  display: flex;
+  flex-direction: column;
+  margin: 4px 16px 8px 16px;
+  min-height: 294px;
+  width: 375px;
+}
+
+.saveOrderConfirmPopup .header-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  margin-top: 12px;
+  min-width: 303px;
+}
+
+.saveOrderConfirmPopup .header-sub-title {
+  color: #323234;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 8px;
+  min-height: 36px;
+  min-width: 343px;
+}
+
+.saveOrderConfirmPopup .return-to-order-entry {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.return-to-order-entry .return-to-order-entry-button {
+  color: #0049bd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.saveOrderConfirmPopup .exit-without-saving {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.exit-without-saving .exit-without-saving-button {
+  color: #cb0000;
+  border-color: #cb0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.saveOrderConfirmPopup .save-and-exit {
+  margin-top: 8px;
+  width: 100%;
+}
+.save-and-exit .save-and-exit-button {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,355 @@
+.supplyOrder-details-component {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+.supplyOrder-details-component .supply-order-details-navigator-main {
+  margin-top: 13px;
+}
+
+.supplyOrder-details-component
+  .supply-order-details-navigator-main
+  .supplyOrder-details-navigator {
+  margin-left: 16px;
+  margin-bottom: -6px;
+}
+
+.supplyOrder-details-component .supplyOrder-detailsDiv {
+  border: 0px solid #e4e4e8;
+  display: flex;
+  flex-direction: column;
+}
+
+.supplyOrder-details-component
+  .supplyOrder-detailsDiv
+  .supplyOrder-details-div-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  height: 56px;
+  width: 100%;
+}
+
+.supplyOrder-details-div-title .supplyOrder-details-grid-container {
+  margin: 0px;
+  padding: 0px;
+  width: calc(100% - 40px);
+}
+
+.supplyOrder-details-div-title
+  .supplyOrder-details-grid-container
+  .supplyOrder-details-grid-item {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.supplyOrder-details-grid-item .supplyOrderDetail {
+  color: #323234;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 16px 0px;
+  width: 100%;
+}
+
+.supplyOrder-details-grid-item .supplyOrderDetailsSummaryPdfBtn-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px;
+  width: 100%;
+}
+
+.supplyOrderDetailsSummaryPdfBtn-div .supplyOrderDetailsSummaryPdfBtn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #0049bd;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+.supplyOrderDetailsSummaryPdfBtn-div .supplyOrderDetailsSummaryPdfBtn:hover {
+  text-decoration: underline;
+  text-decoration-color: #0049bd;
+}
+
+.supplyOrderContainer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e4e4e8;
+  background: #ffffff;
+  height: fit-content;
+  margin: 0px 16px;
+}
+.supplyOrderColumn {
+  width: 35%;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-top: -20px;
+}
+
+.supplyOrderContainer p {
+  margin: 1px;
+  color: #76767a;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.supplyOrder-status-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 16px;
+}
+
+.supplyOrderContainer .supplyOrderleftsidecolumnvalue {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0px;
+  color: #323234;
+}
+
+.supplyOrder-status-div .oval {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  margin: 2px 4px 4px 4px;
+  margin-left: 0px;
+}
+
+.supplyOrderStatus {
+  position: relative;
+  top: 10px;
+}
+
+.supplyOrderDate {
+  position: relative;
+  right: 48%;
+  bottom: 18px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.supplyOrdervline {
+  border-left: 2px solid #0049bd;
+  height: 50px;
+  position: relative;
+  margin-left: 3.5%;
+}
+.h4 {
+  position: relative;
+  right: 119px;
+  bottom: 10px;
+}
+.supplyOrdertracking {
+  margin-left: 100px !important;
+}
+.supplyOrdertracking1 {
+  margin-left: 15px;
+}
+.supplyOrdertrackingLink {
+  position: relative;
+  top: 5px;
+  right: 0px;
+  color: #0049bd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.supplyOrdertrackingLinkp {
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  right: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.supplyOrdertrackingLinkpActive {
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  right: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #323234;
+}
+
+.supplyOrdertrack {
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+.supplyOrdererror {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 15px;
+}
+.supplyOrdermilestone {
+  margin-left: 0px;
+}
+.supplyOrdericonStyle {
+  font-size: "16px" !important;
+  position: "relative" !important;
+}
+.supplyOrdergrayDisabledStyle {
+  height: "1px";
+  width: "19px";
+}
+.supplyOrderenteredIconStyles {
+  display: flex;
+}
+.supplyOrderdisabledStyle {
+  display: flex;
+}
+.supplyOrder-detailsabove {
+  padding: 16px;
+  background: #f8f8fa;
+  border: none;
+}
+.supplyOrderstepperMain .activeLabel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: 5px;
+  margin-left: 9px;
+}
+.supplyOrderstepperMain .notActiveLabel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #76767a;
+  margin-top: 5px;
+  margin-left: 9px;
+}
+.supplyOrdertrackMain {
+  position: absolute;
+  width: 100%;
+}
+.supplyOrderDetailsContent {
+  margin-top: -18px;
+  font-weight: 400;
+}
+.ShippedDate {
+  margin-left: 71px;
+}
+
+.stepperDate {
+  margin-left: 25px;
+}
+.stepperDateDelivered {
+  padding-right: 72px;
+}
+
+.PendingReleaseDate {
+  margin-left: 20px;
+}
+
+.DeliveredDate {
+  margin-left: 65px;
+}
+.TherapyDate {
+  margin-left: 72px;
+}
+.OutforDeliveryDate {
+  margin-left: 24px;
+}
+.BenefitsVerifiedDate {
+  margin-left: 20px;
+}
+
+.supplyOrdergrid-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.supplyOrdergrid-conatiner .supplyOrdertab-grid-item {
+  width: 100%;
+}
+.supplyOrderDetailsTrackingToast {
+  position: fixed;
+  z-index: 1;
+  left: 35%;
+  top: 0;
+  max-width: 30%;
+  margin-top: 6px;
+}
+
+.supplyOrder-overview-route-section {
+  margin: 0 0 0 0;
+}
+.supplyOrder-detailsDiv .alert-banner {
+  margin-top: 0px;
+}
+.supplyOrderDetailsTrackingContent {
+  margin-top: -16px;
+}
+@media only screen and (min-width: 320px) and (max-width: 460px) {
+  .supplyOrderContainer {
+    margin-top: 26px;
+  }
+  .supplyOrderstepperMain .activeLabel {
+    margin-top: 10px;
+  }
+  .ShippedDate {
+    margin-left: 0px;
+    display: block;
+  }
+  .DeliveredDate {
+    margin-left: 0px;
+    display: block;
+  }
+  .OrderReceivedDate {
+    margin-left: 0px;
+    display: block;
+  }
+  .supplyOrderContainer p {
+    line-height: 13px;
+  }
+  .TherapyDate {
+    margin-left: 0px;
+    display: block;
+  }
+  .PendingReleaseDate {
+    margin-left: 0px;
+    display: block;
+  }
+  .BenefitsVerifiedDate {
+    margin-left: 0px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .supplyOrder-details-component .supplyOrder-detailsDiv {
+    overflow: hidden;
+  }
+  .supplyOrdertrackingLink {
+    top: 3px;
+  }
+  .supplyOrderstepperMain .notActiveLabel {
+    margin-top: 12px;
+  }
+}
+@media only screen and(min-width:1280) {
+  .ShippedDate {
+    margin-left: 27px;
+  }
+
+  .DeliveredDate {
+    margin-left: 22px;
+  }
+}
+.supplyOrderstepperMain .activeLabel {
+  white-space: nowrap;
+}

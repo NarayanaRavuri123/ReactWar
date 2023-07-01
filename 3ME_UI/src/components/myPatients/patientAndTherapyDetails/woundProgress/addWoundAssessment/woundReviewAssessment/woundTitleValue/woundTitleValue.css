@@ -1,0 +1,17 @@
+.reviewdata-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808084;
+}
+.reviewdata-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  margin-bottom: 14px;
+}
+.reviewdata-pack {
+  display: inline-block;
+  width: 100%;
+}

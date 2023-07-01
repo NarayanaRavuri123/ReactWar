@@ -1,0 +1,99 @@
+.salesManage-profile .MuiPaper-root {
+  box-shadow: none;
+  border-radius: 0;
+}
+.salesManage-profile-main {
+  background-color: #fff;
+  width: 77.779%;
+}
+
+.salesTerritory-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 18px;
+  margin-left: 0px;
+  box-sizing: border-box;
+  border: 1px solid #e4e4e8;
+  padding: 11px 9px 8px 12px;
+}
+.salesRoleNameLable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  flex-direction: row;
+}
+.salesRoleName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+  width: 112px;
+}
+.salesRegionCodeLable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-left: 0px;
+}
+.salesRegionCodeName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.salesAssignmentLable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-left: 0px;
+  margin-top: 24px;
+}
+.salesAssignmentDates {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.salesTerritoryCodeNameLable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-left: 30px;
+}
+.salesTerritoryName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
+.salesManageProfile-contactNo {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-top: 4%;
+}
+.salesManage-profile-territory {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #323234;
+  margin-top: 48px;
+}
+.salesMgrRegionCodeLable {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #76767a;
+  margin-left: 14px;
+  margin-top: 12px;
+}
+.salesIsPrimary {
+  font-size: 14px;
+  line-height: 18px;
+  color: #323234;
+}
